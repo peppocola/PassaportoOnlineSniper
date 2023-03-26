@@ -1,81 +1,114 @@
-import tkinter as tk
-from tkinter import ttk
-from datetime import datetime, timedelta
 import threading
+import streamlit as st
+import json
+from datetime import datetime, timedelta
 import time
 
-class PassportAppointmentGUI:
-    def __init__(self, master):
-        self.master = master
-        self.master.title("Passport Appointment Scraper")
-        self.master.resizable(False, False)
 
-        self.places = ["New York", "Los Angeles", "Chicago"] # Modify this list according to your needs
+# streamlit interface for an appointment scraper
+class ScraperGUI():
+    def __init__(self, scraper, commissariats_path="./data/commissariats.json", months=4) -> None:
+        self.load_commissariats(commissariats_path)
+        self.scraper = scraper
+        self.months = months
+        self.appointments = []
+        self.thread = None
 
-        # Create a combobox to select the place
-        self.place_var = tk.StringVar()
-        self.place_var.set(self.places[0])
-        self.place_combobox = ttk.Combobox(self.master, textvariable=self.place_var, values=self.places, state="readonly")
-        self.place_combobox.grid(row=0, column=0, padx=10, pady=10)
+    def load_commissariats(self, path):
+        with open(path, 'r') as f:
+            commissariats = json.load(f)
+        self.commissariats = commissariats
+        self.provinces = list(commissariats.keys())
+    
+    def display_interface(self):
+        st.title('Appointment Scraper')
+        # the user can choose multiple provinces
+        self.selected_provinces = st.sidebar.multiselect("Provinces", list(self.provinces))
+        # the user can choose multiple commissariats
+        self.selected_commissariats = st.sidebar.multiselect("Commissariats", self.get_commissariats(self.selected_provinces))
 
-        # Create a label and an entry box to select the threshold date
-        self.threshold_label = tk.Label(self.master, text="Threshold Date (YYYY-MM-DD):")
-        self.threshold_label.grid(row=1, column=0, padx=10, pady=10)
-        self.threshold_entry = tk.Entry(self.master)
-        self.threshold_entry.insert(tk.END, (datetime.now() + timedelta(days=7)).strftime("%Y-%m-%d")) # Set the default threshold date to 7 days from now
-        self.threshold_entry.grid(row=1, column=1, padx=10, pady=10)
+        # the user can choose a date or a range of dates, not both
+        # the user should select if he wants to choose a date or a range of dates
+        self.date_or_range = st.sidebar.radio("Date or range", ["Date", "Range"])
+        # display text to explain the user that if he pick date, the appointments will be searched to be more recent than the date he picked
+        # the date or the range of dates is shown depending on the user's choice
+        if self.date_or_range == "Date":
+            st.sidebar.write("The appointments will be searched to be more recent than the date you picked")
+            self.date = st.sidebar.date_input("Date", datetime.now())
+            self.date_range = None
+        elif self.date_or_range == "Range":
+            st.sidebar.write("The appointments will be searched to be in the range of dates you picked")
+            self.date = None
+            self.start_date = st.sidebar.date_input("Start date", datetime.now())
+            self.end_date = st.sidebar.date_input("End date", datetime.now())
+            # check if the end date is after the start date
+            if self.end_date < self.start_date:
+                st.sidebar.error("End date must be after start date")
+            else:
+                self.date_range = (self.start_date, self.end_date)
+        # the user can choose a time range
+        # checkbox to select if the user wants to use a time range or not
+        self.time_or_not = st.sidebar.checkbox("Time range", False)
+        # the time range is shown depending on the user's choice
+        if self.time_or_not:
+            # the user can choose a start time and an end time
+            self.start_time = st.sidebar.slider("Start time", 0, 24, 0)
+            self.end_time = st.sidebar.slider("End time", 0, 24, 0)
+            # check if the end time is after the start time
+            if self.end_time < self.start_time:
+                st.sidebar.error("End time must be after start time")
+            else:
+                self.time_range = (self.start_time, self.end_time)
+        else:
+            self.time_range = None
 
-        # Create a button to start the scraping process
-        self.start_button = tk.Button(self.master, text="Start Scraping", command=self.start_scraping)
-        self.start_button.grid(row=2, column=0, padx=10, pady=10)
+        # define the buttons if not already defined
+        if not hasattr(st.session_state, "Start"):
+            self.start_button = st.sidebar.button("Start")
+        if not hasattr(st.session_state, "Stop"):
+            self.stop_button = st.sidebar.button("Stop")
 
-        # Create a listbox to show the available appointments
-        self.appointments_listbox = tk.Listbox(self.master)
-        self.appointments_listbox.grid(row=3, column=0, columnspan=2, padx=10, pady=10)
+        # if the user clicks on the start button, the scraper is called
+        if self.start_button:
+            st.write('Scraper started...')
+            self.run_scraper()
+        
+        # if the user clicks on the stop button, the scraper is stopped
+        if self.stop_button:
+            st.write('Scraper stopped...')
+            self.stop_scraper()
+        
+        # the appointments are displayed
+        self.display_appointments()
+        
+    def display_appointments(self):
+        # create an empty placeholder to display the appointments
+        appointments_placeholder = st.empty()
 
-    def start_scraping(self):
-        # This function will be called when the "Start Scraping" button is clicked
+        # loop indefinitely to update the appointments display
+        while True:
+            # get the latest appointments
+            latest_appointments = self.appointments.copy()
+            # clear the appointments placeholder
+            appointments_placeholder.empty()
+            # display the latest appointments
+            for appointment in latest_appointments:
+                appointments_placeholder.write(appointment)
+            # sleep for a short time to avoid using too many resources
+            time.sleep(1)
 
-        # Get the selected place and threshold date
-        place = self.place_var.get()
-        threshold_date_str = self.threshold_entry.get()
+    def get_commissariats(self, provinces):
+        commissariats = []
+        for province in provinces:
+            for commissariat in self.commissariats[province]:
+                commissariats.extend(commissariat['description'])
+        return commissariats
 
-        # Convert the threshold date string to a datetime object
-        threshold_date = datetime.strptime(threshold_date_str, "%Y-%m-%d")
-
-        # Start a new thread to scrape the appointments in the background
-        threading.Thread(target=self.scrape_appointments, args=(place, threshold_date)).start()
-
-    def scrape_appointments(self, place, threshold_date):
-        # This function will scrape the appointments and update the listbox
-
-        # Clear the listbox
-        self.appointments_listbox.delete(0, tk.END)
-
-        # TODO: Scrape the appointments for the selected place and threshold date
-        # appointments = scrape_appointments(place, threshold_date)
-
-        # For testing purposes, we will generate some fake appointments
-        appointments = [
-            "2023-03-01 10:00 AM",
-            "2023-03-01 11:00 AM",
-            "2023-03-02 9:00 AM",
-            "2023-03-02 10:00 AM",
-            "2023-03-03 9:00 AM",
-            "2023-03-03 10:00 AM"
-        ]
-
-        # Update the listbox with the appointments
-        for appointment in appointments:
-            appointment_datetime = datetime.strptime(appointment, "%Y-%m-%d %I:%M %p")
-            if appointment_datetime < threshold_date:
-                continue # Skip appointments that are before the threshold date
-        self.appointments_listbox.insert(tk.END, appointment)
-
-        # Schedule the next scraping in 5 seconds
-        self.master.after(5000, self.scrape_appointments, place, threshold_date)
-
-if __name__ == "main":
-    root = tk.Tk()
-    app = PassportAppointmentGUI(root)
-    root.mainloop()
+    # ADJUST
+    def run_scraper(self):
+        self.thread = threading.Thread(target=self.scraping_fn, args=(self.selected_provinces, self.selected_commissariats, self.date, self.date_range, self.time_range, self.appointments))
+        self.thread.start()
+    
+    def stop_scraper(self):
+        if self.thread is not None:
+            self.thread.stop()

@@ -5,13 +5,13 @@ import json
 from tqdm import tqdm
 from datetime import datetime
 
-url = "https://www.passaportonline.poliziadistato.it/"
-province_url = (
-    f"{url}CittadinoAction.do?codop=resultRicercaRegistiProvincia&provincia="
+URL = "https://www.passaportonline.poliziadistato.it/"
+PROVINCE_URL = (
+    f"{URL}CittadinoAction.do?codop=resultRicercaRegistiProvincia&provincia="
 )
 
 class Scraper:
-    def __init__(self, url=url, date_or_range=None, date=None, date_range=None, time_or_not=None, time_range=None, province_url=province_url):
+    def __init__(self, url=URL, date_or_range=None, date=None, date_range=None, time_or_not=None, time_range=None, province_url=PROVINCE_URL):
         self.url = url
         self.province_url = province_url
         self.commissariats = {}
@@ -20,7 +20,7 @@ class Scraper:
         self.date_range = date_range
         self.time_or_not = time_or_not
         self.time_range = time_range
-        self.appointments = {}
+        self.appointments = defaultdict(list)
         self.running = False
     
     def scrape_nation(self, provinces=None):
@@ -79,18 +79,24 @@ class Scraper:
         response = requests.get(self.province_url + province)
         soup = BeautifulSoup(response.content, 'html.parser')
 
-        appointments = defaultdict(list)
         for commissariat_id in commissariats.keys():
-            availability = soup.select_one(f"#{commissariat_id} td[headers='disponibilita']").get_text(strip=True, default="No")
-            calendar_path = soup.select_one(f"#{commissariat_id} td[headers='selezionaStruttura'] a")['href']
+            availability = soup.find('tr', {'id': commissariat_id}).find('td', {'headers': 'disponibilita'}).text
             if 'si' in availability.lower():
+                calendar_path = soup.find('tr', {'id': commissariat_id}).find('td', {'headers': 'selezionaStruttura'}).find('a').get('href')
+                print(calendar_path)
                 url = f"https://www.passaportonline.poliziadistato.it/{calendar_path}"
                 date = calendar_path.split('&data=')[1]
                 datetime_object = datetime.strptime(date, '%d-%m-%Y')
-                appointments[commissariat_id].append((url, datetime_object))
+                self.appointments[commissariat_id].append({
+                    'url': url,
+                    'date': datetime_object,
+                })
+        return self.appointments
 
 
 if __name__ == '__main__':
-    scraper = Scraper(url)
+    scraper = Scraper(URL)
     scraper.scrape_nation()
     scraper.save_commissariats()
+    scraper.scrape_appointments(province='BR', commissariats=scraper.commissariats['BR'])
+    print(scraper.appointments)

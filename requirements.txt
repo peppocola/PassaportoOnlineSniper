@@ -1,3 +1,3 @@
 streamlit
-beatuifulsoup4
+beautifulsoup4
 tqdm

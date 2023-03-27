@@ -7,10 +7,9 @@ import time
 
 # streamlit interface for an appointment scraper
 class ScraperGUI():
-    def __init__(self, scraper, commissariats_path="./data/commissariats.json", months=4) -> None:
+    def __init__(self, scraper, commissariats_path="./data/commissariats.json") -> None:
         self.load_commissariats(commissariats_path)
         self.scraper = scraper
-        self.months = months
         self.appointments = []
         self.thread = None
 
@@ -18,6 +17,7 @@ class ScraperGUI():
         with open(path, 'r') as f:
             commissariats = json.load(f)
         self.commissariats = commissariats
+        # take the description of the provinces
         self.provinces = list(commissariats.keys())
     
     def display_interface(self):
@@ -46,21 +46,6 @@ class ScraperGUI():
                 st.sidebar.error("End date must be after start date")
             else:
                 self.date_range = (self.start_date, self.end_date)
-        # the user can choose a time range
-        # checkbox to select if the user wants to use a time range or not
-        self.time_or_not = st.sidebar.checkbox("Time range", False)
-        # the time range is shown depending on the user's choice
-        if self.time_or_not:
-            # the user can choose a start time and an end time
-            self.start_time = st.sidebar.slider("Start time", 0, 24, 0)
-            self.end_time = st.sidebar.slider("End time", 0, 24, 0)
-            # check if the end time is after the start time
-            if self.end_time < self.start_time:
-                st.sidebar.error("End time must be after start time")
-            else:
-                self.time_range = (self.start_time, self.end_time)
-        else:
-            self.time_range = None
 
         # define the buttons if not already defined
         if not hasattr(st.session_state, "Start"):
@@ -82,6 +67,9 @@ class ScraperGUI():
         self.display_appointments()
         
     def display_appointments(self):
+        # filter the appointments by date
+        self.filter_appointments()
+
         # create an empty placeholder to display the appointments
         appointments_placeholder = st.empty()
 
@@ -99,16 +87,28 @@ class ScraperGUI():
 
     def get_commissariats(self, provinces):
         commissariats = []
+        print(self.commissariats)
+        print(self.selected_provinces)
         for province in provinces:
+            print(province)
+            print(type(province))
             for commissariat in self.commissariats[province]:
-                commissariats.extend(commissariat['description'])
+                print(commissariat)
+                commissariats.append(self.commissariats[province][commissariat]['descrizione'])
         return commissariats
+    
+    def filter_appointments(self):
+        # filter the appointments by date
+        if self.date_or_range == "Date":
+            self.appointments = [appointment for appointment in self.appointments if appointment['date'] >= self.date]
+        elif self.date_or_range == "Range":
+            self.appointments = [appointment for appointment in self.appointments if self.start_date <= appointment['date'] <= self.end_date]
 
-    # ADJUST
     def run_scraper(self):
-        self.thread = threading.Thread(target=self.scraping_fn, args=(self.selected_provinces, self.selected_commissariats, self.date, self.date_range, self.time_range, self.appointments))
+        self.thread = threading.Thread(target=self.scraper.scrape_appointments, args=(self.selected_provinces, self.selected_commissariats))
         self.thread.start()
     
     def stop_scraper(self):
         if self.thread is not None:
             self.thread.stop()
+

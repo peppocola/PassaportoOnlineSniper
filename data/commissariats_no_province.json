@@ -1,0 +1,3369 @@
+{
+    "162": {
+        "descrizione": "Questura di Agrigento",
+        "indirizzo": "Piazza Vittorio Emanuele, 2",
+        "cap": "92100",
+        "citta": "AGRIGENTO",
+        "provincia": "AGRIGENTO"
+    },
+    "163": {
+        "descrizione": "Commissariato Canicatt\u00ec",
+        "indirizzo": "Via Ciaccio Montalto, 16",
+        "cap": "92024",
+        "citta": "CANICATTI'",
+        "provincia": "AGRIGENTO"
+    },
+    "164": {
+        "descrizione": "Commissariato Licata",
+        "indirizzo": "Via Campobello, 106",
+        "cap": "92027",
+        "citta": "LICATA",
+        "provincia": "AGRIGENTO"
+    },
+    "165": {
+        "descrizione": "Commissariato P. di Montechiaro",
+        "indirizzo": "Via Brodolini, 2",
+        "cap": "92020",
+        "citta": "PALMA DI MONTECHIARO",
+        "provincia": "AGRIGENTO"
+    },
+    "166": {
+        "descrizione": "Commissariato P. Empedocle",
+        "indirizzo": "Via Panarea 3A/3H",
+        "cap": "92014",
+        "citta": "PORTO EMPEDOCLE",
+        "provincia": "AGRIGENTO"
+    },
+    "167": {
+        "descrizione": "Commissariato Sciacca",
+        "indirizzo": "Via Jacopo Ruffini, 12",
+        "cap": "92019",
+        "citta": "SCIACCA",
+        "provincia": "AGRIGENTO"
+    },
+    "36": {
+        "descrizione": "Questura di Alessandria",
+        "indirizzo": "Corso Lamarmora, 71",
+        "cap": "15121",
+        "citta": "ALESSANDRIA",
+        "provincia": "ALESSANDRIA"
+    },
+    "37": {
+        "descrizione": "Commissariato Casale Monferrato",
+        "indirizzo": "Piazza Statuto, 9",
+        "cap": "15033",
+        "citta": "CASALE MONFERRATO",
+        "provincia": "ALESSANDRIA"
+    },
+    "373": {
+        "descrizione": "Questura di Ancona",
+        "indirizzo": "Via G. Gervasoni, 19",
+        "cap": "60100",
+        "citta": "ANCONA",
+        "provincia": "ANCONA"
+    },
+    "374": {
+        "descrizione": "Commissariato Fabriano",
+        "indirizzo": "Via Dante, 21",
+        "cap": "60042",
+        "citta": "FABRIANO",
+        "provincia": "ANCONA"
+    },
+    "375": {
+        "descrizione": "Commissariato Jesi",
+        "indirizzo": "Via Marco Polo, 1",
+        "cap": "60035",
+        "citta": "JESI",
+        "provincia": "ANCONA"
+    },
+    "376": {
+        "descrizione": "Commissariato Osimo",
+        "indirizzo": "Piazza Marconi, 7",
+        "cap": "60027",
+        "citta": "OSIMO",
+        "provincia": "ANCONA"
+    },
+    "377": {
+        "descrizione": "Commissariato Senigallia",
+        "indirizzo": "Via Rosmini, 13/15",
+        "cap": "60019",
+        "citta": "SENIGALLIA",
+        "provincia": "ANCONA"
+    },
+    "114": {
+        "descrizione": "Questura di Aosta",
+        "indirizzo": "Corso Battaglione Aosta, 169",
+        "cap": "11100",
+        "citta": "AOSTA",
+        "provincia": "AOSTA"
+    },
+    "420": {
+        "descrizione": "QUESTURA DI ASCOLI PICENO",
+        "indirizzo": "VIALE DELLA REPUBBLICA 8",
+        "cap": "62100",
+        "citta": "ASCOLI PICENO",
+        "provincia": "ASCOLI PICENO"
+    },
+    "483": {
+        "descrizione": "COMMISSARIATO P.S. DI SAN BENEDETTO DEL TRONTO",
+        "indirizzo": "VIA FRANCESCO CRISPI N.51",
+        "cap": "00000",
+        "citta": "SAN BENEDETTO DEL TRONTO",
+        "provincia": "ASCOLI PICENO"
+    },
+    "266": {
+        "descrizione": "Questura di L'Aquila",
+        "indirizzo": "Via Strinella, 1 c/o Strinella 88",
+        "cap": "67100",
+        "citta": "L'AQUILA",
+        "provincia": "L'AQUILA"
+    },
+    "267": {
+        "descrizione": "Commissariato Avezzano",
+        "indirizzo": "Via Salvador Allende, 10",
+        "cap": "67051",
+        "citta": "AVEZZANO",
+        "provincia": "L'AQUILA"
+    },
+    "268": {
+        "descrizione": "Commissariato Sulmona",
+        "indirizzo": "Via Sallustio, 44",
+        "cap": "67039",
+        "citta": "SULMONA",
+        "provincia": "L'AQUILA"
+    },
+    "309": {
+        "descrizione": "Questura di Arezzo",
+        "indirizzo": "Via Filippo Lippi",
+        "cap": "52100",
+        "citta": "AREZZO",
+        "provincia": "AREZZO"
+    },
+    "317": {
+        "descrizione": "Commissariato Montevarchi",
+        "indirizzo": "Viale A. Diaz, 147",
+        "cap": "52025",
+        "citta": "MONTEVARCHI",
+        "provincia": "AREZZO"
+    },
+    "318": {
+        "descrizione": "Commissariato San Sepolcro",
+        "indirizzo": "Via dei Lorena, 50",
+        "cap": "52037",
+        "citta": "SANSEPOLCRO",
+        "provincia": "AREZZO"
+    },
+    "50": {
+        "descrizione": "Questura di Asti",
+        "indirizzo": "Corso XXV Aprile, 19",
+        "cap": "14100",
+        "citta": "ASTI",
+        "provincia": "ASTI"
+    },
+    "155": {
+        "descrizione": "Questura di Avellino",
+        "indirizzo": "Via Giovanni Palatucci, 16",
+        "cap": "83100",
+        "citta": "AVELLINO",
+        "provincia": "AVELLINO"
+    },
+    "156": {
+        "descrizione": "Commissariato Ariano Irpino",
+        "indirizzo": "Corso Vittorio Emanuele, 217",
+        "cap": "83031",
+        "citta": "ARIANO IRPINO",
+        "provincia": "AVELLINO"
+    },
+    "157": {
+        "descrizione": "Commissariato Cervinara",
+        "indirizzo": "Via Ciriago di Roma, 31",
+        "cap": "83012",
+        "citta": "CERVINARA",
+        "provincia": "AVELLINO"
+    },
+    "158": {
+        "descrizione": "Commissariato Lauro di Nola",
+        "indirizzo": "Viale dei Platani, 1",
+        "cap": "83023",
+        "citta": "LAURO",
+        "provincia": "AVELLINO"
+    },
+    "159": {
+        "descrizione": "Commissariato Sant`Angelo dei Lombardi",
+        "indirizzo": "Via Giostra, 1",
+        "cap": "83054",
+        "citta": "SANT`ANGELO DEI LOMBARDI",
+        "provincia": "AVELLINO"
+    },
+    "285": {
+        "descrizione": "Questura di Bari",
+        "indirizzo": "Via G. Murat, 33",
+        "cap": "70100",
+        "citta": "BARI",
+        "provincia": "BARI"
+    },
+    "286": {
+        "descrizione": "Commissariato Bari Nuova Carrassi",
+        "indirizzo": "Via Pietro Leonida Laforgia, 30",
+        "cap": "70126",
+        "citta": "BARI",
+        "provincia": "BARI"
+    },
+    "287": {
+        "descrizione": "Commissariato Bari San Nicola",
+        "indirizzo": "Piazza San Pietro, 31",
+        "cap": "70122",
+        "citta": "BARI",
+        "provincia": "BARI"
+    },
+    "290": {
+        "descrizione": "Commissariato Corato",
+        "indirizzo": "Via Messina, 54",
+        "cap": "70033",
+        "citta": "CORATO",
+        "provincia": "BARI"
+    },
+    "291": {
+        "descrizione": "Commissariato Gravina in Puglia",
+        "indirizzo": "Via Emilio Guida, 1",
+        "cap": "70024",
+        "citta": "GRAVINA IN PUGLIA",
+        "provincia": "BARI"
+    },
+    "292": {
+        "descrizione": "Commissariato Monopoli",
+        "indirizzo": "Via Filippo Turati, 11",
+        "cap": "70043",
+        "citta": "MONOPOLI",
+        "provincia": "BARI"
+    },
+    "307": {
+        "descrizione": "Commissariato Bitonto",
+        "indirizzo": "Via Tommaso Traetta, 5",
+        "cap": "70032",
+        "citta": "BITONTO",
+        "provincia": "BARI"
+    },
+    "603": {
+        "descrizione": "COMMISSARIATO DI P.S. PUTIGNANO",
+        "indirizzo": "VIA CASULLI NR.4",
+        "cap": "70017",
+        "citta": "PUTIGNANO",
+        "provincia": "BARI"
+    },
+    "111": {
+        "descrizione": "Questura di Bergamo",
+        "indirizzo": "Via Noli,22",
+        "cap": "24100",
+        "citta": "BERGAMO",
+        "provincia": "BERGAMO"
+    },
+    "113": {
+        "descrizione": "Commissariato Treviglio",
+        "indirizzo": "P.zza del Popolo, 3",
+        "cap": "24047",
+        "citta": "TREVIGLIO",
+        "provincia": "BERGAMO"
+    },
+    "443": {
+        "descrizione": "Comunita' Montana n.13 Valle Brembana",
+        "indirizzo": "Via Antonio Locatelli 111",
+        "cap": "24019",
+        "citta": "ZOGNO",
+        "provincia": "BERGAMO"
+    },
+    "444": {
+        "descrizione": "Comunita' Montana Valle Seriana",
+        "indirizzo": "Via Dante Alighieri n\u00b01",
+        "cap": "24023",
+        "citta": "CLUSONE",
+        "provincia": "BERGAMO"
+    },
+    "445": {
+        "descrizione": "Comunita' Montana dei Laghi Bergamaschi",
+        "indirizzo": "Via del Cantiere n\u00b04",
+        "cap": "24065",
+        "citta": "LOVERE",
+        "provincia": "BERGAMO"
+    },
+    "38": {
+        "descrizione": "Questura di Biella",
+        "indirizzo": "Via Sant Eusebio, 5/A",
+        "cap": "13900",
+        "citta": "BIELLA",
+        "provincia": "BIELLA"
+    },
+    "130": {
+        "descrizione": "Questura di Belluno",
+        "indirizzo": "Via Lungardo, 76",
+        "cap": "32100",
+        "citta": "BELLUNO",
+        "provincia": "BELLUNO"
+    },
+    "131": {
+        "descrizione": "Commissariato Cortina D`Ampezzo",
+        "indirizzo": "Largo Poste, 14",
+        "cap": "32043",
+        "citta": "CORTINA D'AMPEZZO",
+        "provincia": "BELLUNO"
+    },
+    "152": {
+        "descrizione": "Questura di Benevento",
+        "indirizzo": "Via Raffaele De Caro, 11",
+        "cap": "82100",
+        "citta": "BENEVENTO",
+        "provincia": "BENEVENTO"
+    },
+    "153": {
+        "descrizione": "Commissariato Telese Terme",
+        "indirizzo": "Via Roma, 1",
+        "cap": "82037",
+        "citta": "TELESE",
+        "provincia": "BENEVENTO"
+    },
+    "300": {
+        "descrizione": "Questura di Bologna",
+        "indirizzo": "Via Sant'Isaia,n.1",
+        "cap": "40123",
+        "citta": "BOLOGNA",
+        "provincia": "BOLOGNA"
+    },
+    "301": {
+        "descrizione": "Commissariato \"Due Torri San Francesco\"",
+        "indirizzo": "Via del Pratello,21",
+        "cap": "40122",
+        "citta": "BOLOGNA",
+        "provincia": "BOLOGNA"
+    },
+    "302": {
+        "descrizione": "Commissariato Bologna Santa Viola",
+        "indirizzo": "Via Marchioni, 4",
+        "cap": "40133",
+        "citta": "BOLOGNA",
+        "provincia": "BOLOGNA"
+    },
+    "303": {
+        "descrizione": "Commissariato Bolognina Pontevecchio",
+        "indirizzo": "Via Lombardia, 35",
+        "cap": "40139",
+        "citta": "BOLOGNA",
+        "provincia": "BOLOGNA"
+    },
+    "304": {
+        "descrizione": "Commissariato Imola",
+        "indirizzo": "Via Rivalta, 55",
+        "cap": "40026",
+        "citta": "IMOLA",
+        "provincia": "BOLOGNA"
+    },
+    "305": {
+        "descrizione": "Commissariato San Giovanni in Persiceto",
+        "indirizzo": "Piazza Del Popolo, 24",
+        "cap": "40017",
+        "citta": "SAN GIOVANNI IN PERSICETO",
+        "provincia": "BOLOGNA"
+    },
+    "207": {
+        "descrizione": "Questura di Brindisi",
+        "indirizzo": "via Perrino, 1",
+        "cap": "72100",
+        "citta": "BRINDISI",
+        "provincia": "BRINDISI"
+    },
+    "315": {
+        "descrizione": "Commissariato Ostuni",
+        "indirizzo": "Corso Vittorio Emanuele II, 93",
+        "cap": "72017",
+        "citta": "OSTUNI",
+        "provincia": "BRINDISI"
+    },
+    "316": {
+        "descrizione": "Commissariato Mesagne",
+        "indirizzo": "Via Tito Speri, 1",
+        "cap": "72023",
+        "citta": "MESAGNE",
+        "provincia": "BRINDISI"
+    },
+    "99": {
+        "descrizione": "Questura di Brescia Via Capriolo, 3",
+        "indirizzo": "Via E. Capriolo,3",
+        "cap": "25100",
+        "citta": "BRESCIA",
+        "provincia": "BRESCIA"
+    },
+    "100": {
+        "descrizione": "Commissariato Desenzano del Garda",
+        "indirizzo": "Via Dante Alighieri, 17",
+        "cap": "25015",
+        "citta": "DESENZANO DEL GARDA",
+        "provincia": "BRESCIA"
+    },
+    "563": {
+        "descrizione": "SPORTELLO PASSAPORTI DARFO BOARIO",
+        "indirizzo": "VIA GIULIO PASTORE, 2",
+        "cap": "25047",
+        "citta": "DARFO BOARIO TERME",
+        "provincia": "BRESCIA"
+    },
+    "288": {
+        "descrizione": "Commissariato Barletta",
+        "indirizzo": "Viale Alessandro Manzoni, 29",
+        "cap": "70051",
+        "citta": "BARLETTA",
+        "provincia": "BARLETTA ANDRIA TRANI"
+    },
+    "289": {
+        "descrizione": "Commissariato Canosa di Puglia",
+        "indirizzo": "Corso Garibaldi, 247",
+        "cap": "70053",
+        "citta": "CANOSA DI PUGLIA",
+        "provincia": "BARLETTA ANDRIA TRANI"
+    },
+    "293": {
+        "descrizione": "Commissariato Trani",
+        "indirizzo": "Via Sant'Annibale Maria di Francia, 100",
+        "cap": "70059",
+        "citta": "TRANI",
+        "provincia": "BARLETTA ANDRIA TRANI"
+    },
+    "306": {
+        "descrizione": "Questura Barletta Andria Trani",
+        "indirizzo": "Via dell'indipendenza, 4",
+        "cap": "70031",
+        "citta": "ANDRIA",
+        "provincia": "BARLETTA ANDRIA TRANI"
+    },
+    "413": {
+        "descrizione": "sportello passaporti presso polizia stadale di brunico",
+        "indirizzo": "Rione Anich, 23",
+        "cap": "39031",
+        "citta": "BRUNICO",
+        "provincia": "BOLZANO"
+    },
+    "269": {
+        "descrizione": "Questura di Bolzano",
+        "indirizzo": "Largo Giovanni Palatucci, 1",
+        "cap": "39100",
+        "citta": "BOLZANO",
+        "provincia": "BOLZANO"
+    },
+    "270": {
+        "descrizione": "Commissariato Brennero",
+        "indirizzo": "via San Valentino, 32",
+        "cap": "39041",
+        "citta": "BRENNERO",
+        "provincia": "BOLZANO"
+    },
+    "271": {
+        "descrizione": "Commissariato Bressanone",
+        "indirizzo": "via Vittorio Veneto, 13",
+        "cap": "39042",
+        "citta": "BRESSANONE",
+        "provincia": "BOLZANO"
+    },
+    "272": {
+        "descrizione": "Commissariato Merano",
+        "indirizzo": "Piazza del Grano, 2",
+        "cap": "39012",
+        "citta": "MERANO",
+        "provincia": "BOLZANO"
+    },
+    "273": {
+        "descrizione": "Commissariato San Candido",
+        "indirizzo": "via Stazione, 5",
+        "cap": "39038",
+        "citta": "SAN CANDIDO",
+        "provincia": "BOLZANO"
+    },
+    "274": {
+        "descrizione": "Commissariato Malles Venosta",
+        "indirizzo": "via Stazione, 37",
+        "cap": "39024",
+        "citta": "MALLES VENOSTA",
+        "provincia": "BOLZANO"
+    },
+    "136": {
+        "descrizione": "Questura di Cagliari",
+        "indirizzo": "via Amat, 9",
+        "cap": "09129",
+        "citta": "CAGLIARI",
+        "provincia": "CAGLIARI"
+    },
+    "137": {
+        "descrizione": "Commissariato Carbonia",
+        "indirizzo": "Via Ala Italiana, 8",
+        "cap": "09013",
+        "citta": "CARBONIA",
+        "provincia": "CAGLIARI"
+    },
+    "138": {
+        "descrizione": "Commissariato Iglesias",
+        "indirizzo": "Via Emanuela Loi, 11",
+        "cap": "09016",
+        "citta": "IGLESIAS",
+        "provincia": "CAGLIARI"
+    },
+    "139": {
+        "descrizione": "Commissariato Commissariato Quartu S. Elena",
+        "indirizzo": "Via Firenze, 52",
+        "cap": "09045",
+        "citta": "QUARTU SANT'ELENA",
+        "provincia": "CAGLIARI"
+    },
+    "383": {
+        "descrizione": "Commissariato Termoli",
+        "indirizzo": "Via Cina, 7",
+        "cap": "86039",
+        "citta": "TERMOLI",
+        "provincia": "CAMPOBASSO"
+    },
+    "264": {
+        "descrizione": "Questura di Campobasso",
+        "indirizzo": "Via V. Tiberio, 95",
+        "cap": "86100",
+        "citta": "CAMPOBASSO",
+        "provincia": "CAMPOBASSO"
+    },
+    "177": {
+        "descrizione": "Questura di Caserta",
+        "indirizzo": "Piazza della Prefettura, 5",
+        "cap": "81100",
+        "citta": "CASERTA",
+        "provincia": "CASERTA"
+    },
+    "178": {
+        "descrizione": "Commissariato Aversa",
+        "indirizzo": "Via San Lorenzo, 98",
+        "cap": "81031",
+        "citta": "AVERSA",
+        "provincia": "CASERTA"
+    },
+    "179": {
+        "descrizione": "Commissariato Castel Volturno",
+        "indirizzo": "Viale delle Acacie - Localit\u00e0 Villaggio Coppola",
+        "cap": "81030",
+        "citta": "CASTEL VOLTURNO",
+        "provincia": "CASERTA"
+    },
+    "180": {
+        "descrizione": "Commissariato Maddaloni",
+        "indirizzo": "Via Caudina",
+        "cap": "81024",
+        "citta": "MADDALONI",
+        "provincia": "CASERTA"
+    },
+    "181": {
+        "descrizione": "Commissariato Marcianise",
+        "indirizzo": "Via Montevergine, 5",
+        "cap": "81025",
+        "citta": "MARCIANISE",
+        "provincia": "CASERTA"
+    },
+    "182": {
+        "descrizione": "Commissariato Santa Maria C.V.",
+        "indirizzo": "Via Federico Pezzella",
+        "cap": "81055",
+        "citta": "SANTA MARIA CAPUA VETERE",
+        "provincia": "CASERTA"
+    },
+    "183": {
+        "descrizione": "Commissariato Sessa Aurunca",
+        "indirizzo": "Viale 21 Luglio, 33",
+        "cap": "81037",
+        "citta": "SESSA AURUNCA",
+        "provincia": "CASERTA"
+    },
+    "191": {
+        "descrizione": "Questura di Chieti",
+        "indirizzo": "Piazza Garibaldi, 17",
+        "cap": "66100",
+        "citta": "CHIETI",
+        "provincia": "CHIETI"
+    },
+    "209": {
+        "descrizione": "Commissariato Lanciano",
+        "indirizzo": "Via Perretti, 1",
+        "cap": "66034",
+        "citta": "LANCIANO",
+        "provincia": "CHIETI"
+    },
+    "210": {
+        "descrizione": "Commissariato Vasto",
+        "indirizzo": "Via Bachelet, 1",
+        "cap": "66054",
+        "citta": "VASTO",
+        "provincia": "CHIETI"
+    },
+    "366": {
+        "descrizione": "Questura di Caltanissetta",
+        "indirizzo": "Via Catania, 1",
+        "cap": "93100",
+        "citta": "CALTANISSETTA",
+        "provincia": "CALTANISSETTA"
+    },
+    "367": {
+        "descrizione": "Commissariato Gela",
+        "indirizzo": "Via Calogero Zucchetto, 7",
+        "cap": "93012",
+        "citta": "GELA",
+        "provincia": "CALTANISSETTA"
+    },
+    "368": {
+        "descrizione": "Commissariato Niscemi",
+        "indirizzo": "Via Mario Gori, 375",
+        "cap": "93015",
+        "citta": "NISCEMI",
+        "provincia": "CALTANISSETTA"
+    },
+    "52": {
+        "descrizione": "Questura di Cuneo",
+        "indirizzo": "Piazzetta Usmiani, 5",
+        "cap": "12100",
+        "citta": "CUNEO",
+        "provincia": "CUNEO"
+    },
+    "95": {
+        "descrizione": "Ufficio Passaporti Distaccato di Bra (CN)",
+        "indirizzo": "Via Guala, 2",
+        "cap": "12042",
+        "citta": "BRA",
+        "provincia": "CUNEO"
+    },
+    "643": {
+        "descrizione": "CEVA SPORTELLO AVANZATO",
+        "indirizzo": "VIA PIO BOCCA N. 1",
+        "cap": "12073",
+        "citta": "CEVA",
+        "provincia": "CUNEO"
+    },
+    "623": {
+        "descrizione": "ALBA SPORTELLO AVANZATO QUESTURA CUNEO",
+        "indirizzo": "PIAZZA RISORGIMENTO N. 1/A (interno Municipio)",
+        "cap": "12051",
+        "citta": "ALBA",
+        "provincia": "CUNEO"
+    },
+    "184": {
+        "descrizione": "Questura di Como",
+        "indirizzo": "Via Italia Libera, 10a",
+        "cap": "22100",
+        "citta": "COMO",
+        "provincia": "COMO"
+    },
+    "115": {
+        "descrizione": "Questura di Cremona",
+        "indirizzo": "corso Vittorio Emanuele II, 23",
+        "cap": "26100",
+        "citta": "CREMONA",
+        "provincia": "CREMONA"
+    },
+    "116": {
+        "descrizione": "Commissariato Crema",
+        "indirizzo": "via Macall\u00e8, 7",
+        "cap": "26013",
+        "citta": "CREMA",
+        "provincia": "CREMONA"
+    },
+    "322": {
+        "descrizione": "Questura di Cosenza",
+        "indirizzo": "Via Domenico Frugiuele, 8",
+        "cap": "87100",
+        "citta": "COSENZA",
+        "provincia": "COSENZA"
+    },
+    "323": {
+        "descrizione": "Commissariato Castrovillari",
+        "indirizzo": "Via Emanuela Loi snc",
+        "cap": "87012",
+        "citta": "CASTROVILLARI",
+        "provincia": "COSENZA"
+    },
+    "324": {
+        "descrizione": "Commissariato Paola",
+        "indirizzo": "Piazzale Stazione, 4",
+        "cap": "87027",
+        "citta": "PAOLA",
+        "provincia": "COSENZA"
+    },
+    "325": {
+        "descrizione": "Commissariato P.S. Corigliano",
+        "indirizzo": "Via G. Di Vittorio",
+        "cap": "87067",
+        "citta": "ROSSANO CALABRO",
+        "provincia": "COSENZA"
+    },
+    "148": {
+        "descrizione": "Questura di Catania",
+        "indirizzo": "Viale Africa, 29",
+        "cap": "95100",
+        "citta": "CATANIA",
+        "provincia": "CATANIA"
+    },
+    "192": {
+        "descrizione": "Commissariato Acireale",
+        "indirizzo": "Corso Umberto, 181",
+        "cap": "95024",
+        "citta": "ACIREALE",
+        "provincia": "CATANIA"
+    },
+    "193": {
+        "descrizione": "Commissariato Adrano",
+        "indirizzo": "Viale della regione, 67/A",
+        "cap": "95031",
+        "citta": "ADRANO",
+        "provincia": "CATANIA"
+    },
+    "194": {
+        "descrizione": "Commissariato Caltagirone",
+        "indirizzo": "Via Santa Maria di Gesu', 32",
+        "cap": "95041",
+        "citta": "CALTAGIRONE",
+        "provincia": "CATANIA"
+    },
+    "195": {
+        "descrizione": "Commissariato Catania Borgo Ognina",
+        "indirizzo": "Via Francesco Pensavalle, 44",
+        "cap": "95128",
+        "citta": "CATANIA",
+        "provincia": "CATANIA"
+    },
+    "196": {
+        "descrizione": "Commissariato Catania Stazione Centrale",
+        "indirizzo": "via Teatro Massimo, 44",
+        "cap": "95131",
+        "citta": "CATANIA",
+        "provincia": "CATANIA"
+    },
+    "197": {
+        "descrizione": "Commissariato Catania Stazione Librino",
+        "indirizzo": "Via S.Teodoro, 4",
+        "cap": "95121",
+        "citta": "CATANIA",
+        "provincia": "CATANIA"
+    },
+    "198": {
+        "descrizione": "Commissariato Catania Nesima",
+        "indirizzo": "Piazza Eroi D`Ungheria, 11",
+        "cap": "95123",
+        "citta": "CATANIA",
+        "provincia": "CATANIA"
+    },
+    "90": {
+        "descrizione": "Questura di Catanzaro",
+        "indirizzo": "Piazza Cavour n.2",
+        "cap": "88100",
+        "citta": "CATANZARO",
+        "provincia": "CATANZARO"
+    },
+    "112": {
+        "descrizione": "Commissariato Lamezia Terme",
+        "indirizzo": "Via Perugini",
+        "cap": "88046",
+        "citta": "LAMEZIA TERME",
+        "provincia": "CATANZARO"
+    },
+    "412": {
+        "descrizione": "Comm.to Catanzaro Lido",
+        "indirizzo": "Via Carlo Pisacane, snc",
+        "cap": "88100",
+        "citta": "CATANZARO",
+        "provincia": "CATANZARO"
+    },
+    "140": {
+        "descrizione": "Questura di Enna",
+        "indirizzo": "Via San Giuseppe, 2",
+        "cap": "94100",
+        "citta": "ENNA",
+        "provincia": "ENNA"
+    },
+    "141": {
+        "descrizione": "Commissariato Leonforte",
+        "indirizzo": "Via Borz\u00ec, 31",
+        "cap": "94013",
+        "citta": "LEONFORTE",
+        "provincia": "ENNA"
+    },
+    "142": {
+        "descrizione": "Commissariato Nicosia",
+        "indirizzo": "Via Giovanni Falcone, 26",
+        "cap": "94014",
+        "citta": "NICOSIA",
+        "provincia": "ENNA"
+    },
+    "143": {
+        "descrizione": "Commissariato Piazza Armerina",
+        "indirizzo": "Via Alessandro Manzoni, 70",
+        "cap": "94015",
+        "citta": "PIAZZA ARMERINA",
+        "provincia": "ENNA"
+    },
+    "149": {
+        "descrizione": "Questura di Forl\u00ec Cesena",
+        "indirizzo": "Corso Garibaldi, 116",
+        "cap": "47121",
+        "citta": "FORLI-CESENA",
+        "provincia": "FORLI-CESENA"
+    },
+    "150": {
+        "descrizione": "Commissariato Cesena",
+        "indirizzo": "Via Don Minzoni, 350",
+        "cap": "47032",
+        "citta": "CESENA",
+        "provincia": "FORLI-CESENA"
+    },
+    "278": {
+        "descrizione": "Questura di Ferrara",
+        "indirizzo": "Corso Ercole I d'Este, 34",
+        "cap": "44121",
+        "citta": "FERRARA",
+        "provincia": "FERRARA"
+    },
+    "583": {
+        "descrizione": "Sportello Ufficio Passaporti c/o il Comune di CENTO",
+        "indirizzo": "VIA JOLANDA 15 - 17",
+        "cap": "44042",
+        "citta": "CENTO",
+        "provincia": "FERRARA"
+    },
+    "584": {
+        "descrizione": "Sportello Ufficio Passaporti c/o il Comune di COMACCHIO",
+        "indirizzo": "PIAZZA FOLEGATTI 15",
+        "cap": "44022",
+        "citta": "COMACCHIO",
+        "provincia": "FERRARA"
+    },
+    "222": {
+        "descrizione": "Questura di Foggia",
+        "indirizzo": "Via Antonio Gramsci, 1",
+        "cap": "71122",
+        "citta": "FOGGIA",
+        "provincia": "FOGGIA"
+    },
+    "223": {
+        "descrizione": "Commissariato Cerignola",
+        "indirizzo": "Via Jesolo, 2",
+        "cap": "71042",
+        "citta": "CERIGNOLA",
+        "provincia": "FOGGIA"
+    },
+    "224": {
+        "descrizione": "Commissariato Lucera",
+        "indirizzo": "Via Po snc",
+        "cap": "71036",
+        "citta": "LUCERA",
+        "provincia": "FOGGIA"
+    },
+    "225": {
+        "descrizione": "Commissariato Manfredonia",
+        "indirizzo": "Via G. di Vittorio, 305",
+        "cap": "71043",
+        "citta": "MANFREDONIA",
+        "provincia": "FOGGIA"
+    },
+    "226": {
+        "descrizione": "Commissariato San Severo",
+        "indirizzo": "Via Filippo D`Alfonso, 78",
+        "cap": "71016",
+        "citta": "SAN SEVERO",
+        "provincia": "FOGGIA"
+    },
+    "354": {
+        "descrizione": "Questura di Firenze",
+        "indirizzo": "Via della Fortezza, 17",
+        "cap": "50129",
+        "citta": "FIRENZE",
+        "provincia": "FIRENZE"
+    },
+    "355": {
+        "descrizione": "Commissariato Empoli",
+        "indirizzo": "Piazza Gramsci, 46",
+        "cap": "50053",
+        "citta": "EMPOLI",
+        "provincia": "FIRENZE"
+    },
+    "356": {
+        "descrizione": "Commissariato Firenze Oltrarno",
+        "indirizzo": "Piazza del Tiratoio, 6",
+        "cap": "50124",
+        "citta": "FIRENZE",
+        "provincia": "FIRENZE"
+    },
+    "357": {
+        "descrizione": "Commissariato Firenze Rifredi",
+        "indirizzo": "Via Sgambati, 21",
+        "cap": "50127",
+        "citta": "FIRENZE",
+        "provincia": "FIRENZE"
+    },
+    "358": {
+        "descrizione": "Commissariato Firenze San Giovanni",
+        "indirizzo": "Firenze Lungarno della Zecca Vecchia 20/A",
+        "cap": "50122",
+        "citta": "FIRENZE",
+        "provincia": "FIRENZE"
+    },
+    "359": {
+        "descrizione": "Commissariato Sesto Fiorentino",
+        "indirizzo": "Via Gramsci, 522",
+        "cap": "50019",
+        "citta": "SESTO FIORENTINO",
+        "provincia": "FIRENZE"
+    },
+    "703": {
+        "descrizione": "AREA1: COMUNE DI BORGO SAN LORENZO",
+        "indirizzo": "Via DEGLI ARGINI c/o Uffici della Polizia Municipale",
+        "cap": "50032",
+        "citta": "BORGO SAN LORENZO",
+        "provincia": "FIRENZE"
+    },
+    "704": {
+        "descrizione": "AREA2: COMUNE DI PONTASSIEVE",
+        "indirizzo": "VIA TANZINI, 30",
+        "cap": "50065",
+        "citta": "PONTASSIEVE",
+        "provincia": "FIRENZE"
+    },
+    "705": {
+        "descrizione": "AREA3: COMUNE DI FIGLINE E INCISA VALDARNO",
+        "indirizzo": "Piazza IV NOVEMBRE, nr.3",
+        "cap": "50063",
+        "citta": "FIGLINE E INCISA VALDARNO",
+        "provincia": "FIRENZE"
+    },
+    "706": {
+        "descrizione": "AREA4: COMUNE DI BARBERINO TAVARNELLE",
+        "indirizzo": "PIAZZA MATTEOTTI N. 39",
+        "cap": "50028",
+        "citta": "BARBERINO TAVARNELLE",
+        "provincia": "FIRENZE"
+    },
+    "422": {
+        "descrizione": "Questura di Fermo",
+        "indirizzo": "Via Italia, 12",
+        "cap": "63900",
+        "citta": "FERMO",
+        "provincia": "FERMO"
+    },
+    "387": {
+        "descrizione": "Questura di Frosinone",
+        "indirizzo": "Via Vado del Tufo, 67/B",
+        "cap": "03100",
+        "citta": "FROSINONE",
+        "provincia": "FROSINONE"
+    },
+    "388": {
+        "descrizione": "Commissariato Cassino",
+        "indirizzo": "Via Ausonia Vecchia, 25/A",
+        "cap": "03043",
+        "citta": "CASSINO",
+        "provincia": "FROSINONE"
+    },
+    "419": {
+        "descrizione": "Commissariato di P.S.  Sora",
+        "indirizzo": "via Firenze, 15",
+        "cap": "03039",
+        "citta": "SORA",
+        "provincia": "FROSINONE"
+    },
+    "423": {
+        "descrizione": "Commissariato Fiuggi",
+        "indirizzo": "Via Prenestina n.56",
+        "cap": "03014",
+        "citta": "FIUGGI",
+        "provincia": "FROSINONE"
+    },
+    "117": {
+        "descrizione": "Questura di Genova",
+        "indirizzo": "Corso Aurelio Saffi, 37",
+        "cap": "16121",
+        "citta": "GENOVA",
+        "provincia": "GENOVA"
+    },
+    "118": {
+        "descrizione": "Commissariato P.S. Chiavari",
+        "indirizzo": "Via Brizzolara, 5",
+        "cap": "16043",
+        "citta": "CHIAVARI",
+        "provincia": "GENOVA"
+    },
+    "119": {
+        "descrizione": "Commissariato Genova P.S. Centro",
+        "indirizzo": "Piazza Matteotti, 2",
+        "cap": "16121",
+        "citta": "GENOVA",
+        "provincia": "GENOVA"
+    },
+    "120": {
+        "descrizione": "Commissariato Genova P.S. Cornigliano",
+        "indirizzo": "Piazza Rizzolio, 25",
+        "cap": "16152",
+        "citta": "GENOVA",
+        "provincia": "GENOVA"
+    },
+    "121": {
+        "descrizione": "Commissariato Genova P.S. Foce Sturla",
+        "indirizzo": "Via dei Mille, 12",
+        "cap": "16161",
+        "citta": "GENOVA",
+        "provincia": "GENOVA"
+    },
+    "122": {
+        "descrizione": "Commissariato Genova P.S. Nervi",
+        "indirizzo": "Piazza Duca degli Abruzzi, 6/B",
+        "cap": "16167",
+        "citta": "GENOVA",
+        "provincia": "GENOVA"
+    },
+    "123": {
+        "descrizione": "Commissariato Genova P.S. Pr\u00e8",
+        "indirizzo": "Via Balbi, 38/B",
+        "cap": "16126",
+        "citta": "GENOVA",
+        "provincia": "GENOVA"
+    },
+    "124": {
+        "descrizione": "Commissariato Genova P.S. San Fruttuoso",
+        "indirizzo": "Via Marina di Robilant, 4",
+        "cap": "16143",
+        "citta": "GENOVA",
+        "provincia": "GENOVA"
+    },
+    "125": {
+        "descrizione": "Commissariato Genova P.S. Sestri",
+        "indirizzo": "Via F. Da Persico, 1/A",
+        "cap": "16154",
+        "citta": "GENOVA",
+        "provincia": "GENOVA"
+    },
+    "126": {
+        "descrizione": "Commissariato P.S. Rapallo",
+        "indirizzo": "Piazzale Alfieri, 1",
+        "cap": "16035",
+        "citta": "RAPALLO",
+        "provincia": "GENOVA"
+    },
+    "205": {
+        "descrizione": "Questura di Gorizia",
+        "indirizzo": "P.zza Cavour, 8",
+        "cap": "34170",
+        "citta": "GORIZIA",
+        "provincia": "GORIZIA"
+    },
+    "206": {
+        "descrizione": "Commissariato Monfalcone",
+        "indirizzo": "Via Foscolo, 12",
+        "cap": "34074",
+        "citta": "MONFALCONE",
+        "provincia": "GORIZIA"
+    },
+    "308": {
+        "descrizione": "Questura di Grosseto",
+        "indirizzo": "Piazza Giovanni Palatucci 1",
+        "cap": "58100",
+        "citta": "GROSSETO",
+        "provincia": "GROSSETO"
+    },
+    "127": {
+        "descrizione": "Questura di Imperia",
+        "indirizzo": "Piazza del Duomo, 14",
+        "cap": "18100",
+        "citta": "IMPERIA",
+        "provincia": "IMPERIA"
+    },
+    "128": {
+        "descrizione": "Commisariato P.S. Sanremo",
+        "indirizzo": "Corso Cavallotti, 16",
+        "cap": "18038",
+        "citta": "SAN REMO",
+        "provincia": "IMPERIA"
+    },
+    "129": {
+        "descrizione": "Commissariato Ventimiglia",
+        "indirizzo": "Via Aprosio, 21",
+        "cap": "18039",
+        "citta": "VENTIMIGLIA",
+        "provincia": "IMPERIA"
+    },
+    "154": {
+        "descrizione": "Questura di Isernia",
+        "indirizzo": "Via Palatucci snc",
+        "cap": "86170",
+        "citta": "ISERNIA",
+        "provincia": "ISERNIA"
+    },
+    "89": {
+        "descrizione": "Questura di Crotone",
+        "indirizzo": "Largo Pastificio, 20",
+        "cap": "88900",
+        "citta": "CROTONE",
+        "provincia": "CROTONE"
+    },
+    "110": {
+        "descrizione": "Questura di Lecco",
+        "indirizzo": "Via Leonardo da Vinci, 2",
+        "cap": "23900",
+        "citta": "LECCO",
+        "provincia": "LECCO"
+    },
+    "345": {
+        "descrizione": "Commissariato Galatina",
+        "indirizzo": "Via Salacino, 48",
+        "cap": "73013",
+        "citta": "GALATINA",
+        "provincia": "LECCE"
+    },
+    "346": {
+        "descrizione": "Commissariato Gallipoli",
+        "indirizzo": "Via Lecce, 131",
+        "cap": "73014",
+        "citta": "GALLIPOLI",
+        "provincia": "LECCE"
+    },
+    "347": {
+        "descrizione": "Commissariato Nard\u00f2",
+        "indirizzo": "Via Duca Abruzzi, 27",
+        "cap": "73048",
+        "citta": "NARDO'",
+        "provincia": "LECCE"
+    },
+    "348": {
+        "descrizione": "Commissariato Otranto",
+        "indirizzo": "Via Pioppi snc",
+        "cap": "73028",
+        "citta": "OTRANTO",
+        "provincia": "LECCE"
+    },
+    "349": {
+        "descrizione": "Commissariato Taurisano",
+        "indirizzo": "Viale Eroi d`Italia, 170",
+        "cap": "73056",
+        "citta": "TAURISANO",
+        "provincia": "LECCE"
+    },
+    "208": {
+        "descrizione": "Questura di Lecce",
+        "indirizzo": "viale Otranto, 1",
+        "cap": "73100",
+        "citta": "LECCE",
+        "provincia": "LECCE"
+    },
+    "310": {
+        "descrizione": "Questura di Livorno",
+        "indirizzo": "V.le Boccaccio, 5",
+        "cap": "57100",
+        "citta": "LIVORNO",
+        "provincia": "LIVORNO"
+    },
+    "311": {
+        "descrizione": "Commissariato Cecina",
+        "indirizzo": "Corso Matteotti, 313",
+        "cap": "57023",
+        "citta": "CECINA",
+        "provincia": "LIVORNO"
+    },
+    "312": {
+        "descrizione": "Commissariato Piombino",
+        "indirizzo": "Via Ferrer, 48",
+        "cap": "57025",
+        "citta": "PIOMBINO",
+        "provincia": "LIVORNO"
+    },
+    "313": {
+        "descrizione": "Commissariato Portoferraio",
+        "indirizzo": "Viale Manzoni, 4",
+        "cap": "57037",
+        "citta": "PORTOFERRAIO",
+        "provincia": "LIVORNO"
+    },
+    "314": {
+        "descrizione": "Commissariato Rosignano Solvay",
+        "indirizzo": "Via Aurelia, 339",
+        "cap": "57013",
+        "citta": "ROSIGNANO MARITTIMO",
+        "provincia": "LIVORNO"
+    },
+    "46": {
+        "descrizione": "Questura di Lodi",
+        "indirizzo": "Via Defendente, 33",
+        "cap": "26900",
+        "citta": "LODI",
+        "provincia": "LODI"
+    },
+    "360": {
+        "descrizione": "Questura di Latina",
+        "indirizzo": "Corso della Repubblica, 330 - Palazzo M",
+        "cap": "04100",
+        "citta": "LATINA",
+        "provincia": "LATINA"
+    },
+    "361": {
+        "descrizione": "Commissariato Cisterna",
+        "indirizzo": "Via Benedetto Croce, 7B",
+        "cap": "04012",
+        "citta": "CISTERNA DI LATINA",
+        "provincia": "LATINA"
+    },
+    "362": {
+        "descrizione": "Commissariato Fondi",
+        "indirizzo": "Via Francesco Evangelista, 5",
+        "cap": "04022",
+        "citta": "FONDI",
+        "provincia": "LATINA"
+    },
+    "363": {
+        "descrizione": "Commissariato Formia",
+        "indirizzo": "Via Olivastro Spaventola, snc",
+        "cap": "04023",
+        "citta": "FORMIA",
+        "provincia": "LATINA"
+    },
+    "364": {
+        "descrizione": "Commissariato Gaeta",
+        "indirizzo": "Viale America,9",
+        "cap": "04024",
+        "citta": "GAETA",
+        "provincia": "LATINA"
+    },
+    "365": {
+        "descrizione": "Commissariato Terracina",
+        "indirizzo": "Via Petrarca, 14",
+        "cap": "04019",
+        "citta": "TERRACINA",
+        "provincia": "LATINA"
+    },
+    "279": {
+        "descrizione": "Questura di Lucca",
+        "indirizzo": "Corso Garibaldi,115",
+        "cap": "55100",
+        "citta": "LUCCA",
+        "provincia": "LUCCA"
+    },
+    "280": {
+        "descrizione": "Commissariato Forte dei Marmi",
+        "indirizzo": "via Rosseti e Bandini, 29",
+        "cap": "55042",
+        "citta": "FORTE DEI MARMI",
+        "provincia": "LUCCA"
+    },
+    "281": {
+        "descrizione": "Commissariato Viareggio",
+        "indirizzo": "Via Fratelli Cervi, 32",
+        "cap": "55049",
+        "citta": "VIAREGGIO",
+        "provincia": "LUCCA"
+    },
+    "723": {
+        "descrizione": "DISTACCAMENTO POLIZIA STRADALE BAGNI DI LUCCA",
+        "indirizzo": "VIA DELLA CHIUSA 25 Fraz. Fornoli",
+        "cap": "55022",
+        "citta": "BAGNI DI LUCCA",
+        "provincia": "LUCCA"
+    },
+    "13": {
+        "descrizione": "Questura di Monza e della Brianza",
+        "indirizzo": "Via Montevecchia snc",
+        "cap": "20052",
+        "citta": "MONZA",
+        "provincia": "MONZA E DELLA BRIANZA"
+    },
+    "464": {
+        "descrizione": "Commissariato di Monza e della Brianza",
+        "indirizzo": "via Romagna, 40",
+        "cap": "20052",
+        "citta": "MILANO",
+        "provincia": "MONZA E DELLA BRIANZA"
+    },
+    "343": {
+        "descrizione": "Questura di Macerata",
+        "indirizzo": "Piazza della Libert\u00e0, 15",
+        "cap": "62100",
+        "citta": "MACERATA",
+        "provincia": "MACERATA"
+    },
+    "344": {
+        "descrizione": "Commissariato Civitanova Marche",
+        "indirizzo": "Via G. D`Annunzio, 14/16",
+        "cap": "62012",
+        "citta": "CIVITANOVA MARCHE",
+        "provincia": "MACERATA"
+    },
+    "62": {
+        "descrizione": "Questura di Messina",
+        "indirizzo": "Via Raffaele Villari, 2",
+        "cap": "98123",
+        "citta": "MESSINA",
+        "provincia": "MESSINA"
+    },
+    "63": {
+        "descrizione": "Commissariato  Barcellona pozzo di Gotto",
+        "indirizzo": "Via Luigi de Luca, 22",
+        "cap": "98051",
+        "citta": "BARCELLONA POZZO DI GOTTO",
+        "provincia": "MESSINA"
+    },
+    "64": {
+        "descrizione": "Commissariato Capo d'Orlando",
+        "indirizzo": "Via Piave, 52/C",
+        "cap": "98071",
+        "citta": "CAPO D'ORLANDO",
+        "provincia": "MESSINA"
+    },
+    "67": {
+        "descrizione": "Commissariato Messina Nord",
+        "indirizzo": "Via Epifanio Abate",
+        "cap": "98168",
+        "citta": "MESSINA",
+        "provincia": "MESSINA"
+    },
+    "69": {
+        "descrizione": "Commissariato Messina Sud",
+        "indirizzo": "Strada Statale 114  km.4+200(Localit\u00e0 Contesse)",
+        "cap": "98100",
+        "citta": "MESSINA",
+        "provincia": "MESSINA"
+    },
+    "71": {
+        "descrizione": "Commissariato di Milazzo",
+        "indirizzo": "Via Municipio, 1",
+        "cap": "98057",
+        "citta": "MILAZZO",
+        "provincia": "MESSINA"
+    },
+    "73": {
+        "descrizione": "Commissariato Patti",
+        "indirizzo": "Contrada Santo Spirito,50",
+        "cap": "98066",
+        "citta": "PATTI",
+        "provincia": "MESSINA"
+    },
+    "75": {
+        "descrizione": "Commissariato Sant'Agata di Militello",
+        "indirizzo": "Via Roma, 31",
+        "cap": "98076",
+        "citta": "SANT'AGATA DI MILITELLO",
+        "provincia": "MESSINA"
+    },
+    "76": {
+        "descrizione": "Commissariato Taormina",
+        "indirizzo": "Piazza S. Domenico, 1",
+        "cap": "98039",
+        "citta": "TAORMINA",
+        "provincia": "MESSINA"
+    },
+    "91": {
+        "descrizione": "Questura U.R.P. Messina",
+        "indirizzo": "via Gran Priorato",
+        "cap": "98121",
+        "citta": "MESSINA",
+        "provincia": "MESSINA"
+    },
+    "2": {
+        "descrizione": "Questura di Milano",
+        "indirizzo": "via Cordusio, 4",
+        "cap": "20123",
+        "citta": "MILANO",
+        "provincia": "MILANO"
+    },
+    "7": {
+        "descrizione": "Commissariato Sesto S. Giovanni",
+        "indirizzo": "via Fiume, 2",
+        "cap": "20099",
+        "citta": "SESTO SAN GIOVANNI",
+        "provincia": "MILANO"
+    },
+    "8": {
+        "descrizione": "Commissariato Comasina",
+        "indirizzo": "via Comasina, 36",
+        "cap": "20161",
+        "citta": "COMASINA",
+        "provincia": "MILANO"
+    },
+    "9": {
+        "descrizione": "Commissariato Citta studi",
+        "indirizzo": "via Cadamosto, 4",
+        "cap": "20129",
+        "citta": "CITTA STUDI",
+        "provincia": "MILANO"
+    },
+    "10": {
+        "descrizione": "Commissariato Greco Turro",
+        "indirizzo": "via Perotti, 2",
+        "cap": "20125",
+        "citta": "GRECO TURRO",
+        "provincia": "MILANO"
+    },
+    "11": {
+        "descrizione": "Commissariato Lambrate",
+        "indirizzo": "via Maniago, 36",
+        "cap": "20134",
+        "citta": "LAMBRATE",
+        "provincia": "MILANO"
+    },
+    "12": {
+        "descrizione": "Commissariato Legnano",
+        "indirizzo": "via Monsignor Gilardelli, 1",
+        "cap": "20025",
+        "citta": "LEGNANO",
+        "provincia": "MILANO"
+    },
+    "14": {
+        "descrizione": "Commissariato Porta Genova",
+        "indirizzo": "p.zza Venino, 6",
+        "cap": "20123",
+        "citta": "PORTA GENOVA",
+        "provincia": "MILANO"
+    },
+    "15": {
+        "descrizione": "Commissariato Porta Ticinese",
+        "indirizzo": "via Tabacchi, 6",
+        "cap": "20136",
+        "citta": "PORTA TICINESE",
+        "provincia": "MILANO"
+    },
+    "16": {
+        "descrizione": "Commissariato San Siro",
+        "indirizzo": "via Novara, 199",
+        "cap": "20153",
+        "citta": "SAN SIRO",
+        "provincia": "MILANO"
+    },
+    "17": {
+        "descrizione": "Commissariato Scalo Romana",
+        "indirizzo": "via F. Chopin, 52",
+        "cap": "20141",
+        "citta": "SCALO ROMANA",
+        "provincia": "MILANO"
+    },
+    "18": {
+        "descrizione": "Commissariato Mecenate",
+        "indirizzo": "via Quintiliano, 59",
+        "cap": "20138",
+        "citta": "MECENATE",
+        "provincia": "MILANO"
+    },
+    "19": {
+        "descrizione": "Commissariato Centro",
+        "indirizzo": "p.zza San Sepolcro, 9",
+        "cap": "20123",
+        "citta": "CENTRO",
+        "provincia": "MILANO"
+    },
+    "20": {
+        "descrizione": "Commissariato Sempione",
+        "indirizzo": "v.le Certosa, 7",
+        "cap": "20149",
+        "citta": "SEMPIONE",
+        "provincia": "MILANO"
+    },
+    "21": {
+        "descrizione": "Commissariato Garibaldi Venezia",
+        "indirizzo": "via Schiapparelli, 8",
+        "cap": "20125",
+        "citta": "GARIBALDI VENEZIA",
+        "provincia": "MILANO"
+    },
+    "22": {
+        "descrizione": "Commissariato Monforte Vittoria",
+        "indirizzo": "via C. Poma, 8",
+        "cap": "20129",
+        "citta": "MONFORTE VITTORIA",
+        "provincia": "MILANO"
+    },
+    "23": {
+        "descrizione": "Commissariato Cinisello Balsamo",
+        "indirizzo": "via Cilea, 30",
+        "cap": "20092",
+        "citta": "CINISELLO BALSAMO",
+        "provincia": "MILANO"
+    },
+    "24": {
+        "descrizione": "Commissariato Bonola di Milano",
+        "indirizzo": "via Falk, 12",
+        "cap": "20151",
+        "citta": "BONOLA DI MILANO",
+        "provincia": "MILANO"
+    },
+    "25": {
+        "descrizione": "Commissariato Quarto Oggiaro",
+        "indirizzo": "via Satta, 6",
+        "cap": "20156",
+        "citta": "QUARTO OGGIARO",
+        "provincia": "MILANO"
+    },
+    "26": {
+        "descrizione": "Commissariato Rho Pero",
+        "indirizzo": "via Nazario Sauro, 13",
+        "cap": "20017",
+        "citta": "RHO-PERO",
+        "provincia": "MILANO"
+    },
+    "27": {
+        "descrizione": "Commissariato Lorenteggio",
+        "indirizzo": "via Primaticcio, 3",
+        "cap": "20143",
+        "citta": "LORENTEGGIO",
+        "provincia": "MILANO"
+    },
+    "28": {
+        "descrizione": "Commissariato Villa San Giovanni",
+        "indirizzo": "v.le Monza, 322",
+        "cap": "20128",
+        "citta": "VILLA SAN GIOVANNI",
+        "provincia": "MILANO"
+    },
+    "98": {
+        "descrizione": "Questura di Mantova",
+        "indirizzo": "Piazza Sordello, 46",
+        "cap": "46100",
+        "citta": "MANTOVA",
+        "provincia": "MANTOVA"
+    },
+    "201": {
+        "descrizione": "Questura di Modena",
+        "indirizzo": "Via Giovanni Palatucci, 15",
+        "cap": "41122",
+        "citta": "MODENA",
+        "provincia": "MODENA"
+    },
+    "202": {
+        "descrizione": "Commissariato Carpi",
+        "indirizzo": "Via Carlo Marx, 150",
+        "cap": "41012",
+        "citta": "CARPI",
+        "provincia": "MODENA"
+    },
+    "203": {
+        "descrizione": "Commissariato Mirandola",
+        "indirizzo": "Via Fulvia, 9",
+        "cap": "41037",
+        "citta": "MIRANDOLA",
+        "provincia": "MODENA"
+    },
+    "204": {
+        "descrizione": "Commissariato Sassuolo",
+        "indirizzo": "Via Brigata Folgore, 24",
+        "cap": "41049",
+        "citta": "SASSUOLO",
+        "provincia": "MODENA"
+    },
+    "332": {
+        "descrizione": "Questura di Massa Carrara",
+        "indirizzo": "Via del Patriota, 1",
+        "cap": "54100",
+        "citta": "MASSA-CARRARA",
+        "provincia": "MASSA-CARRARA"
+    },
+    "333": {
+        "descrizione": "Commissariato Carrara",
+        "indirizzo": "Piazza II Giugno, 17",
+        "cap": "54031",
+        "citta": "CARRARA",
+        "provincia": "MASSA-CARRARA"
+    },
+    "92": {
+        "descrizione": "Questura di Matera",
+        "indirizzo": "Via Gattini, 12",
+        "cap": "75100",
+        "citta": "MATERA",
+        "provincia": "MATERA"
+    },
+    "93": {
+        "descrizione": "Commissariato Policoro",
+        "indirizzo": "Via Puglia snc",
+        "cap": "75025",
+        "citta": "Policoro",
+        "provincia": "MATERA"
+    },
+    "94": {
+        "descrizione": "Commissariato Pisticci",
+        "indirizzo": "Via Pierpaolo Pasolini s.n.c.",
+        "cap": "75015",
+        "citta": "PISTICCI",
+        "provincia": "MATERA"
+    },
+    "227": {
+        "descrizione": "Questura di Napoli",
+        "indirizzo": "Via S. Tommaso d'Aquino (ex Pal. ENEL)",
+        "cap": "80133",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "228": {
+        "descrizione": "Commissariato Acerra",
+        "indirizzo": "Via Torquato Tasso s.n.c.",
+        "cap": "80011",
+        "citta": "ACERRA",
+        "provincia": "NAPOLI"
+    },
+    "229": {
+        "descrizione": "Commissariato Afragola",
+        "indirizzo": "Via Salvator Rosa, 1",
+        "cap": "80021",
+        "citta": "AFRAGOLA",
+        "provincia": "NAPOLI"
+    },
+    "230": {
+        "descrizione": "Commissariato Capri",
+        "indirizzo": "via Roma, 68/A",
+        "cap": "80073",
+        "citta": "CAPRI",
+        "provincia": "NAPOLI"
+    },
+    "231": {
+        "descrizione": "Commissariato Castellammare di Stabia",
+        "indirizzo": "Via Alcide De Gasperi, 175",
+        "cap": "80053",
+        "citta": "CASTELLAMMARE DI STABIA",
+        "provincia": "NAPOLI"
+    },
+    "232": {
+        "descrizione": "Commissariato Frattamaggiore",
+        "indirizzo": "Via Padre Mario Vergara, 43",
+        "cap": "80027",
+        "citta": "FRATTAMAGGIORE",
+        "provincia": "NAPOLI"
+    },
+    "233": {
+        "descrizione": "Commissariato Giugliano Villaricca",
+        "indirizzo": "Via Antica Giardini",
+        "cap": "80014",
+        "citta": "GIUGLIANO IN CAMPANIA",
+        "provincia": "NAPOLI"
+    },
+    "234": {
+        "descrizione": "Commissariato Ischia",
+        "indirizzo": "Via delle Terme, 80",
+        "cap": "80077",
+        "citta": "ISCHIA",
+        "provincia": "NAPOLI"
+    },
+    "235": {
+        "descrizione": "Commissariato Napoli Arenella",
+        "indirizzo": "Via Cardarelli, 9",
+        "cap": "80100",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "236": {
+        "descrizione": "Commissariato Napoli Bagnoli",
+        "indirizzo": "Via Coroglio, 10",
+        "cap": "80124",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "237": {
+        "descrizione": "Commissariato Napoli Chiaiano",
+        "indirizzo": "Via Raffaelli, 8",
+        "cap": "80145",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "238": {
+        "descrizione": "Commissariato Napoli Dante",
+        "indirizzo": "Via Tarsia, 38",
+        "cap": "80135",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "239": {
+        "descrizione": "Commissariato Napoli Decumani",
+        "indirizzo": "via San Biagio dei Librai, 85",
+        "cap": "80138",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "240": {
+        "descrizione": "Commissariato Napoli Ferdinando",
+        "indirizzo": "Riviera di Chiaia, 185",
+        "cap": "80121",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "241": {
+        "descrizione": "Commissariato Napoli Montecalvario",
+        "indirizzo": "Via Santa Lucia al Monte, 21",
+        "cap": "80134",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "242": {
+        "descrizione": "Commissariato Napoli Pianura",
+        "indirizzo": "Corso Duca D`Aosta, 1",
+        "cap": "80126",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "243": {
+        "descrizione": "Commissariato Napoli Poggioreale",
+        "indirizzo": "Via Stadera, 42",
+        "cap": "80143",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "244": {
+        "descrizione": "Commissariato Napoli Ponticelli",
+        "indirizzo": "Via Commissario Ammaturo",
+        "cap": "80147",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "245": {
+        "descrizione": "Commissariato Napoli Posillipo",
+        "indirizzo": "Via Manzoni, 249",
+        "cap": "80123",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "246": {
+        "descrizione": "Commissariato Napoli San Carlo Arena",
+        "indirizzo": "Calata Capodichino, 9",
+        "cap": "80137",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "247": {
+        "descrizione": "Commissariato Napoli Scampia",
+        "indirizzo": "Viale della Resistenza s.n.",
+        "cap": "80144",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "248": {
+        "descrizione": "Commissariato Napoli Secondigliano",
+        "indirizzo": "Corso Secondigliano snc angolo via Ferrovia",
+        "cap": "80100",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "249": {
+        "descrizione": "Commissariato Napoli Vasto Arenaccia",
+        "indirizzo": "Centro Direzionale di Napoli, isola F/4",
+        "cap": "80100",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "250": {
+        "descrizione": "Commissariato Napoli Vicaria Mercato",
+        "indirizzo": "Piazza Enrico De Nicola, 35",
+        "cap": "80139",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "251": {
+        "descrizione": "Commissariato Napoli Vomero",
+        "indirizzo": "Via Giambattista Ruoppolo, 33",
+        "cap": "80127",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "252": {
+        "descrizione": "Commissariato Nola",
+        "indirizzo": "Via Onorevole Francesco Napolitano - P.co Napolita",
+        "cap": "80035",
+        "citta": "NOLA",
+        "provincia": "NAPOLI"
+    },
+    "253": {
+        "descrizione": "Commissariato Pompei",
+        "indirizzo": "Via Sacra, 1",
+        "cap": "80045",
+        "citta": "POMPEI",
+        "provincia": "NAPOLI"
+    },
+    "254": {
+        "descrizione": "Commissariato Portici",
+        "indirizzo": "Via Salute, 45",
+        "cap": "80055",
+        "citta": "PORTICI",
+        "provincia": "NAPOLI"
+    },
+    "255": {
+        "descrizione": "Commissariato Pozzuoli",
+        "indirizzo": "Piazza Italo Balbo s.n.c.",
+        "cap": "80078",
+        "citta": "POZZUOLI",
+        "provincia": "NAPOLI"
+    },
+    "256": {
+        "descrizione": "Commissariato San Giorgio a Cremano",
+        "indirizzo": "Via Salvatore Rosa, 57",
+        "cap": "80046",
+        "citta": "SAN GIORGIO A CREMANO",
+        "provincia": "NAPOLI"
+    },
+    "257": {
+        "descrizione": "Commissariato San Giuseppe Vesuviano",
+        "indirizzo": "Via Scudieri 3^ trav.sa a dx",
+        "cap": "80047",
+        "citta": "SAN GIUSEPPE VESUVIANO",
+        "provincia": "NAPOLI"
+    },
+    "258": {
+        "descrizione": "Commissariato Sorrento",
+        "indirizzo": "Vicolo Terzo Rota, 14",
+        "cap": "80067",
+        "citta": "SORRENTO",
+        "provincia": "NAPOLI"
+    },
+    "259": {
+        "descrizione": "Commissariato Torre Annunziata",
+        "indirizzo": "Corso Umberto I\u00b0, 69",
+        "cap": "80058",
+        "citta": "TORRE ANNUNZIATA",
+        "provincia": "NAPOLI"
+    },
+    "260": {
+        "descrizione": "Commissariato Palazzo di Giustizia",
+        "indirizzo": "Piazza cenni",
+        "cap": "80000",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "261": {
+        "descrizione": "Commissariato San Giovanni Barra",
+        "indirizzo": "Via Atripaldi, 1",
+        "cap": "80000",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "262": {
+        "descrizione": "Commissariato San Paolo",
+        "indirizzo": "Piazzale Tecchio, 70",
+        "cap": "80000",
+        "citta": "NAPOLI",
+        "provincia": "NAPOLI"
+    },
+    "263": {
+        "descrizione": "Commissariato Torre Del Greco",
+        "indirizzo": "Via Sedivola, 40",
+        "cap": "80059",
+        "citta": "TORRE DEL GRECO",
+        "provincia": "NAPOLI"
+    },
+    "44": {
+        "descrizione": "Questura di Novara",
+        "indirizzo": "Piazza del Popolo, 1",
+        "cap": "28100",
+        "citta": "NOVARA",
+        "provincia": "NOVARA"
+    },
+    "663": {
+        "descrizione": "SPORTELLO PASSAPORTI DI BORGOMANERO(NO)",
+        "indirizzo": "VIA DON MINZONI N.34",
+        "cap": "28021",
+        "citta": "BORGOMANERO",
+        "provincia": "NOVARA"
+    },
+    "403": {
+        "descrizione": "Questura di Nuoro",
+        "indirizzo": "Piazza Vittorio Emanuele, 18",
+        "cap": "08100",
+        "citta": "NUORO",
+        "provincia": "NUORO"
+    },
+    "404": {
+        "descrizione": "Commissariato Gavoi",
+        "indirizzo": "Via Settembrini snc",
+        "cap": "08020",
+        "citta": "GAVOI",
+        "provincia": "NUORO"
+    },
+    "405": {
+        "descrizione": "Commissariato Lanusei",
+        "indirizzo": "Viale della Repubblica, 67",
+        "cap": "08045",
+        "citta": "LANUSEI",
+        "provincia": "NUORO"
+    },
+    "406": {
+        "descrizione": "Commissariato Macomer",
+        "indirizzo": "Via Lussu, 1",
+        "cap": "08015",
+        "citta": "MACOMER",
+        "provincia": "NUORO"
+    },
+    "407": {
+        "descrizione": "Commissariato Orgosolo",
+        "indirizzo": "Via Rinascita, 45",
+        "cap": "08027",
+        "citta": "ORGOSOLO",
+        "provincia": "NUORO"
+    },
+    "408": {
+        "descrizione": "Commissariato Ottana",
+        "indirizzo": "Via Aldo Moro, 7",
+        "cap": "08020",
+        "citta": "OTTANA",
+        "provincia": "NUORO"
+    },
+    "409": {
+        "descrizione": "Commissariato Siniscola",
+        "indirizzo": "via Francesco Straullu n. 1",
+        "cap": "08029",
+        "citta": "SINISCOLA",
+        "provincia": "NUORO"
+    },
+    "410": {
+        "descrizione": "Commissariato Tortol\u00ec",
+        "indirizzo": "Via G. Deledda, 33",
+        "cap": "08040",
+        "citta": "TORTOLI'",
+        "provincia": "NUORO"
+    },
+    "411": {
+        "descrizione": "Questura di Oristano",
+        "indirizzo": "Via Beatrice D`Arborea",
+        "cap": "09170",
+        "citta": "ORISTANO",
+        "provincia": "ORISTANO"
+    },
+    "397": {
+        "descrizione": "Questura di Sassari",
+        "indirizzo": "via Giovanni Palatucci, 1",
+        "cap": "07100",
+        "citta": "SASSARI",
+        "provincia": "SASSARI"
+    },
+    "398": {
+        "descrizione": "Commissariato Alghero",
+        "indirizzo": "via Kennedy s.n.c.",
+        "cap": "07041",
+        "citta": "ALGHERO",
+        "provincia": "SASSARI"
+    },
+    "399": {
+        "descrizione": "Commissariato Olbia",
+        "indirizzo": "Via Dei Pini, 66",
+        "cap": "07026",
+        "citta": "OLBIA",
+        "provincia": "SASSARI"
+    },
+    "400": {
+        "descrizione": "Commissariato Ozieri",
+        "indirizzo": "Via Vittorio Veneto, 52",
+        "cap": "07014",
+        "citta": "OZIERI",
+        "provincia": "SASSARI"
+    },
+    "401": {
+        "descrizione": "Commissariato Porto Cervo",
+        "indirizzo": "Lungomare Cannigione",
+        "cap": "07021",
+        "citta": "ARZACHENA",
+        "provincia": "SASSARI"
+    },
+    "402": {
+        "descrizione": "Commissariato Tempio Pausania",
+        "indirizzo": "Viale Bernardo Demuro, 5",
+        "cap": "07029",
+        "citta": "TEMPIO PAUSANIA",
+        "provincia": "SASSARI"
+    },
+    "65": {
+        "descrizione": "Questura di Palermo",
+        "indirizzo": "Piazza della Vittoria, 8",
+        "cap": "90134",
+        "citta": "PALERMO",
+        "provincia": "PALERMO"
+    },
+    "66": {
+        "descrizione": "Commissariato Bagheria",
+        "indirizzo": "Via Giuseppe La Masa, 60",
+        "cap": "90011",
+        "citta": "BAGHERIA",
+        "provincia": "PALERMO"
+    },
+    "68": {
+        "descrizione": "Commissariato Cefal\u00f9",
+        "indirizzo": "Via Roma, 15",
+        "cap": "90015",
+        "citta": "CEFALU'",
+        "provincia": "PALERMO"
+    },
+    "70": {
+        "descrizione": "Commissariato Corleone",
+        "indirizzo": "Via Giuseppe Verdi, snc",
+        "cap": "90034",
+        "citta": "CORLEONE",
+        "provincia": "PALERMO"
+    },
+    "72": {
+        "descrizione": "Commissariato Palermo Brancaccio",
+        "indirizzo": "Via Giafar, 193",
+        "cap": "90124",
+        "citta": "PALERMO",
+        "provincia": "PALERMO"
+    },
+    "74": {
+        "descrizione": "Commissariato Palermo Libert\u00e0",
+        "indirizzo": "Via Generale Arimondi, 2/P",
+        "cap": "90143",
+        "citta": "PALERMO",
+        "provincia": "PALERMO"
+    },
+    "77": {
+        "descrizione": "Commissariato Palermo Mondello",
+        "indirizzo": "Viale Regina Elena, 43",
+        "cap": "90151",
+        "citta": "PALERMO",
+        "provincia": "PALERMO"
+    },
+    "78": {
+        "descrizione": "Commissariato Palermo Oreto",
+        "indirizzo": "Via Roma, 194",
+        "cap": "90133",
+        "citta": "PALERMO",
+        "provincia": "PALERMO"
+    },
+    "80": {
+        "descrizione": "Commissariato Centro",
+        "indirizzo": "Via Bentivegna, 58",
+        "cap": "90141",
+        "citta": "PALERMO",
+        "provincia": "PALERMO"
+    },
+    "83": {
+        "descrizione": "Commissariato Porta Nuova",
+        "indirizzo": "Corso Calatafimi, 421",
+        "cap": "90129",
+        "citta": "PALERMO",
+        "provincia": "PALERMO"
+    },
+    "85": {
+        "descrizione": "Commissariato Palermo San Lorenzo",
+        "indirizzo": "Viale Duca degli Abruzzi, 2",
+        "cap": "90146",
+        "citta": "PALERMO",
+        "provincia": "PALERMO"
+    },
+    "86": {
+        "descrizione": "Commissariato Palermo Zisa",
+        "indirizzo": "Via Noce, 91",
+        "cap": "90145",
+        "citta": "PALERMO",
+        "provincia": "PALERMO"
+    },
+    "87": {
+        "descrizione": "Commissariato Partinico",
+        "indirizzo": "Corso dei Mille, 235",
+        "cap": "90047",
+        "citta": "PARTINICO",
+        "provincia": "PALERMO"
+    },
+    "88": {
+        "descrizione": "Commissariato Termini Imerese",
+        "indirizzo": "Via del Mazziere, 71",
+        "cap": "90018",
+        "citta": "TERMINI IMERESE",
+        "provincia": "PALERMO"
+    },
+    "48": {
+        "descrizione": "Questura di Piacenza",
+        "indirizzo": "Viale Malta 10/C",
+        "cap": "29121",
+        "citta": "PIACENZA",
+        "provincia": "PIACENZA"
+    },
+    "200": {
+        "descrizione": "Questura di Padova",
+        "indirizzo": "Piazzetta G. Palatucci, 5",
+        "cap": "35123",
+        "citta": "PADOVA",
+        "provincia": "PADOVA"
+    },
+    "151": {
+        "descrizione": "Questura di Pescara",
+        "indirizzo": "Via Pesaro, 7",
+        "cap": "65121",
+        "citta": "PESCARA",
+        "provincia": "PESCARA"
+    },
+    "378": {
+        "descrizione": "Questura di Perugia",
+        "indirizzo": "Via del tabacchificio, 21",
+        "cap": "06127",
+        "citta": "PERUGIA",
+        "provincia": "PERUGIA"
+    },
+    "379": {
+        "descrizione": "Commissariato Assisi",
+        "indirizzo": "Piazza Santa Chiara, 3",
+        "cap": "06081",
+        "citta": "ASSISI",
+        "provincia": "PERUGIA"
+    },
+    "380": {
+        "descrizione": "Commissariato Citt\u00e0 di Castello",
+        "indirizzo": "Via R. Morandi, 37",
+        "cap": "06012",
+        "citta": "CITTA` DI CASTELLO",
+        "provincia": "PERUGIA"
+    },
+    "381": {
+        "descrizione": "Commissariato Foligno",
+        "indirizzo": "Via Garibaldi, 155",
+        "cap": "06034",
+        "citta": "FOLIGNO",
+        "provincia": "PERUGIA"
+    },
+    "382": {
+        "descrizione": "Commissariato Spoleto",
+        "indirizzo": "Viale Guglielmo Marconi, 2",
+        "cap": "06049",
+        "citta": "SPOLETO",
+        "provincia": "PERUGIA"
+    },
+    "297": {
+        "descrizione": "Questura di Pisa",
+        "indirizzo": "Via Mario Lalli, 3",
+        "cap": "56127",
+        "citta": "PISA",
+        "provincia": "PISA"
+    },
+    "298": {
+        "descrizione": "Commissariato Pontedera",
+        "indirizzo": "P.zza Trieste, 17",
+        "cap": "56025",
+        "citta": "PONTEDERA",
+        "provincia": "PISA"
+    },
+    "299": {
+        "descrizione": "Commissariato Volterra",
+        "indirizzo": "P.zza Priori, 12",
+        "cap": "56048",
+        "citta": "VOLTERRA",
+        "provincia": "PISA"
+    },
+    "133": {
+        "descrizione": "Questura di Pordenone",
+        "indirizzo": "Piazzale Giovanni Palatucci 1 (ex via Fontane, 1)",
+        "cap": "33170",
+        "citta": "PORDENONE",
+        "provincia": "PORDENONE"
+    },
+    "389": {
+        "descrizione": "Questura di Prato",
+        "indirizzo": "Via Migliore di Cino, 10/12",
+        "cap": "59100",
+        "citta": "PRATO",
+        "provincia": "PRATO"
+    },
+    "330": {
+        "descrizione": "Questura di Parma",
+        "indirizzo": "Borgo della Posta, 14",
+        "cap": "43100",
+        "citta": "PARMA",
+        "provincia": "PARMA"
+    },
+    "384": {
+        "descrizione": "Commissariato Pescia",
+        "indirizzo": "Via Galeotti, 87",
+        "cap": "51017",
+        "citta": "PESCIA",
+        "provincia": "PISTOIA"
+    },
+    "394": {
+        "descrizione": "Commissariato Montecatini Terme",
+        "indirizzo": "Viale Adua, 27",
+        "cap": "51016",
+        "citta": "MONTECATINI TERME",
+        "provincia": "PISTOIA"
+    },
+    "326": {
+        "descrizione": "Questura di Pistoia",
+        "indirizzo": "Via Pertini, 150",
+        "cap": "51100",
+        "citta": "PISTOIA",
+        "provincia": "PISTOIA"
+    },
+    "351": {
+        "descrizione": "Questura di Pesaro Urbino",
+        "indirizzo": "Via G. Bruno, 5",
+        "cap": "61100",
+        "citta": "PESARO E URBINO",
+        "provincia": "PESARO E URBINO"
+    },
+    "352": {
+        "descrizione": "Commissariato Fano",
+        "indirizzo": "Via Costituzione, 21",
+        "cap": "61032",
+        "citta": "FANO",
+        "provincia": "PESARO E URBINO"
+    },
+    "353": {
+        "descrizione": "Commissariato Urbino",
+        "indirizzo": "Piazza Della Repubblica nr.13, c/o Collegio Raffaello",
+        "cap": "61029",
+        "citta": "URBINO",
+        "provincia": "PESARO E URBINO"
+    },
+    "107": {
+        "descrizione": "Questura di Pavia",
+        "indirizzo": "Via Rismondo, 68",
+        "cap": "27100",
+        "citta": "PAVIA",
+        "provincia": "PAVIA"
+    },
+    "108": {
+        "descrizione": "Commissariato Vigevano",
+        "indirizzo": "Viale Libert\u00e0, 3/B",
+        "cap": "27029",
+        "citta": "VIGEVANO",
+        "provincia": "PAVIA"
+    },
+    "109": {
+        "descrizione": "Commissariato Voghera",
+        "indirizzo": "Via Carlo Emanuele III, 23",
+        "cap": "27058",
+        "citta": "VOGHERA",
+        "provincia": "PAVIA"
+    },
+    "82": {
+        "descrizione": "Questura di Potenza",
+        "indirizzo": "Viale Guglielmo Marconi, 42",
+        "cap": "85100",
+        "citta": "POTENZA",
+        "provincia": "POTENZA"
+    },
+    "84": {
+        "descrizione": "Commissariato di Melfi",
+        "indirizzo": "Via Passannante, 1",
+        "cap": "85025",
+        "citta": "MELFI",
+        "provincia": "POTENZA"
+    },
+    "370": {
+        "descrizione": "Questura di Ravenna",
+        "indirizzo": "Viale Enrico Berlinguer, 20",
+        "cap": "48124",
+        "citta": "RAVENNA",
+        "provincia": "RAVENNA"
+    },
+    "371": {
+        "descrizione": "Commissariato Faenza",
+        "indirizzo": "Via San Silvestro, 19",
+        "cap": "48018",
+        "citta": "FAENZA",
+        "provincia": "RAVENNA"
+    },
+    "372": {
+        "descrizione": "Commissariato Lugo di Romagna",
+        "indirizzo": "Via Tommaso Emaldi, 23",
+        "cap": "48022",
+        "citta": "LUGO",
+        "provincia": "RAVENNA"
+    },
+    "340": {
+        "descrizione": "Commissariato Siderno Marina",
+        "indirizzo": "Via Amendola, 77",
+        "cap": "89048",
+        "citta": "SIDERNO",
+        "provincia": "REGGIO CALABRIA"
+    },
+    "341": {
+        "descrizione": "Commissariato Turianova",
+        "indirizzo": "Viale San Martino,11",
+        "cap": "89029",
+        "citta": "TURIANOVA",
+        "provincia": "REGGIO CALABRIA"
+    },
+    "342": {
+        "descrizione": "Commissariato Villa San Giovanni",
+        "indirizzo": "Viale Rocco Larussa, 25",
+        "cap": "89018",
+        "citta": "VILLA SAN GIOVANNI",
+        "provincia": "REGGIO CALABRIA"
+    },
+    "132": {
+        "descrizione": "Questura di Reggio Calabria",
+        "indirizzo": "Corso Giuseppe Garibaldi, 442",
+        "cap": "89100",
+        "citta": "REGGIO CALABRIA",
+        "provincia": "REGGIO CALABRIA"
+    },
+    "334": {
+        "descrizione": "Commissariato Bovalino",
+        "indirizzo": "Via Dromo I, 65",
+        "cap": "89034",
+        "citta": "BOVALINO",
+        "provincia": "REGGIO CALABRIA"
+    },
+    "335": {
+        "descrizione": "Commissariato Cittanova",
+        "indirizzo": "Via Nervi",
+        "cap": "89022",
+        "citta": "CITTANOVA",
+        "provincia": "REGGIO CALABRIA"
+    },
+    "336": {
+        "descrizione": "Commissariato Condofuri",
+        "indirizzo": "Via Peripoli",
+        "cap": "89030",
+        "citta": "CONDOFURI",
+        "provincia": "REGGIO CALABRIA"
+    },
+    "337": {
+        "descrizione": "Commissariato Gioia Tauro",
+        "indirizzo": "Via Provinciale per Rizziconi",
+        "cap": "89013",
+        "citta": "GIOIA TAURO",
+        "provincia": "REGGIO CALABRIA"
+    },
+    "338": {
+        "descrizione": "Commissariato Palmi",
+        "indirizzo": "via Buozzi, 277",
+        "cap": "89015",
+        "citta": "PALMI",
+        "provincia": "REGGIO CALABRIA"
+    },
+    "339": {
+        "descrizione": "Commissariato Polistena",
+        "indirizzo": "Piazzale Pace, 3",
+        "cap": "89024",
+        "citta": "POLISTENA",
+        "provincia": "REGGIO CALABRIA"
+    },
+    "211": {
+        "descrizione": "Questura di Reggio Emilia",
+        "indirizzo": "Via Dante Alighieri, 10",
+        "cap": "42100",
+        "citta": "REGGIO EMILIA",
+        "provincia": "REGGIO EMILIA"
+    },
+    "421": {
+        "descrizione": "Ufficio Passaporti c/o il Comune di Castelnovo n\u00e8 Monti",
+        "indirizzo": "Piazza Gramsci civico 01",
+        "cap": "42035",
+        "citta": "CASTELNOVO NE' MONTI",
+        "provincia": "REGGIO EMILIA"
+    },
+    "144": {
+        "descrizione": "Questura di Ragusa",
+        "indirizzo": "Via Ispettore Giovanni Lizzio",
+        "cap": "97100",
+        "citta": "RAGUSA",
+        "provincia": "RAGUSA"
+    },
+    "145": {
+        "descrizione": "Commissariato Comiso",
+        "indirizzo": "Via Pietro Micca, 99/101",
+        "cap": "97013",
+        "citta": "COMISO",
+        "provincia": "RAGUSA"
+    },
+    "146": {
+        "descrizione": "Commissariato Modica",
+        "indirizzo": "Via del Campo Sportivo, 48",
+        "cap": "97015",
+        "citta": "MODICA",
+        "provincia": "RAGUSA"
+    },
+    "147": {
+        "descrizione": "Commissariato Vittoria",
+        "indirizzo": "Via Manuela Loi, 40",
+        "cap": "97019",
+        "citta": "VITTORIA",
+        "provincia": "RAGUSA"
+    },
+    "390": {
+        "descrizione": "Questura di Rieti",
+        "indirizzo": "Largo Claudio Graziosi, 3",
+        "cap": "02100",
+        "citta": "RIETI",
+        "provincia": "RIETI"
+    },
+    "329": {
+        "descrizione": "Questura di Rimini",
+        "indirizzo": "Piazza Bornaccini nr.1",
+        "cap": "47900",
+        "citta": "RIMINI",
+        "provincia": "RIMINI"
+    },
+    "369": {
+        "descrizione": "Questura di Roma",
+        "indirizzo": "Piazzale del Verano,11",
+        "cap": "00161",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "504": {
+        "descrizione": "COMMISSARIATO ALBANO LAZIALE",
+        "indirizzo": "BORGO GARIBALDI N.7",
+        "cap": "00041",
+        "citta": "ALBANO LAZIALE",
+        "provincia": "ROMA"
+    },
+    "505": {
+        "descrizione": "COMMISSARIATO ANZIO",
+        "indirizzo": "VIA ANTIUM NR.3",
+        "cap": "00042",
+        "citta": "ANZIO",
+        "provincia": "ROMA"
+    },
+    "506": {
+        "descrizione": "COMMISSARIATO APPIO NUOVO",
+        "indirizzo": "VIA G. BOTERO N.57",
+        "cap": "00179",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "507": {
+        "descrizione": "COMMISSARIATO AURELIO",
+        "indirizzo": "VIA AURELIA N.660",
+        "cap": "00165",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "508": {
+        "descrizione": "COMMISSARIATO BORGO",
+        "indirizzo": "PIAZZA CAVOUR N.3",
+        "cap": "00193",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "509": {
+        "descrizione": "COMMISSARIATO CASILINO",
+        "indirizzo": "Via delle Cincie, 28",
+        "cap": "00169",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "510": {
+        "descrizione": "COMMISSARIATO CASTRO PRETORIO",
+        "indirizzo": "Via Simeto, 60",
+        "cap": "00169",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "511": {
+        "descrizione": "COMMISSARIATO CELIO",
+        "indirizzo": "VIA MARCO AURELIO N.35",
+        "cap": "00184",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "512": {
+        "descrizione": "COMMISSARIATO CIVITAVECCHIA",
+        "indirizzo": "VIA DELLA VITTORIA, 15",
+        "cap": "00053",
+        "citta": "CIVITAVECCHIA",
+        "provincia": "ROMA"
+    },
+    "513": {
+        "descrizione": "COMMISSARIATO COLLEFERRO",
+        "indirizzo": "VIA CASILINA KM 50.200",
+        "cap": "00034",
+        "citta": "COLLEFERRO",
+        "provincia": "ROMA"
+    },
+    "514": {
+        "descrizione": "COMMISSARIATO CRISTOFORO COLOMBO",
+        "indirizzo": "VIA GIOVANNI MARIA PERCOTO, 8",
+        "cap": "00154",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "515": {
+        "descrizione": "COMMISSARIATO ESPOSIZIONE",
+        "indirizzo": "VIALE ASIA N.32",
+        "cap": "00144",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "516": {
+        "descrizione": "COMMISSARIATO ESQUILINO",
+        "indirizzo": "VIA PETRARCA, 7",
+        "cap": "00185",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "517": {
+        "descrizione": "COMMISSARIATO FIDENE",
+        "indirizzo": "VIA FRANCO ENRIQUEZ N.18",
+        "cap": "00141",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "518": {
+        "descrizione": "COMMISSARIATO FIUMICINO",
+        "indirizzo": "VIA PORTUENSE 2466",
+        "cap": "00054",
+        "citta": "FIUMICINO",
+        "provincia": "ROMA"
+    },
+    "519": {
+        "descrizione": "COMMISSARIATO FLAMINIO NUOVO",
+        "indirizzo": "PIAZZA MANFREDI AZZARITA, 1",
+        "cap": "00189",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "520": {
+        "descrizione": "COMMISSARIATO FRASCATI",
+        "indirizzo": "VIA SCIADONNA N.24/26",
+        "cap": "00044",
+        "citta": "FRASCATI",
+        "provincia": "ROMA"
+    },
+    "521": {
+        "descrizione": "COMMISSARIATO GENZANO",
+        "indirizzo": "VIA CHATILLON, 2",
+        "cap": "00045",
+        "citta": "GENZANO DI ROMA",
+        "provincia": "ROMA"
+    },
+    "522": {
+        "descrizione": "COMMISSARIATO LIDO DI ROMA",
+        "indirizzo": "VIALE GIUSEPPE GENOESE ZERBI N.98",
+        "cap": "00122",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "523": {
+        "descrizione": "COMMISSARIATO MARINO",
+        "indirizzo": "PIAZZA DON LUIGI STURZO, 23",
+        "cap": "00047",
+        "citta": "MARINO",
+        "provincia": "ROMA"
+    },
+    "524": {
+        "descrizione": "COMMISSARIATO MONTE MARIO",
+        "indirizzo": "VIA GUIDO ALESSI N.19",
+        "cap": "00136",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "525": {
+        "descrizione": "COMMISSARIATO MONTEVERDE",
+        "indirizzo": "VIA FELICE CAVALLOTTI N.72",
+        "cap": "00152",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "526": {
+        "descrizione": "PONTE MILVIO",
+        "indirizzo": "VIA DEGLI ORTI DELLA FARNESINA N.8",
+        "cap": "00135",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "527": {
+        "descrizione": "COMMISSARIATO PORTA MAGGIORE",
+        "indirizzo": "VIA G. DE AGOSTINI, 50",
+        "cap": "00161",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "528": {
+        "descrizione": "COMMISSARIATO PORTA PIA",
+        "indirizzo": "VIA FORLI' N.26",
+        "cap": "00161",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "529": {
+        "descrizione": "COMMISSARIATO PORTA SAN GIOVANNI",
+        "indirizzo": "VIA CASALMONFERRATO N.25",
+        "cap": "00182",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "530": {
+        "descrizione": "COMMISSARIATO PRATI",
+        "indirizzo": "VIA RUFFINI, 1",
+        "cap": "00195",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "531": {
+        "descrizione": "COMMISSARIATO PRENESTINO",
+        "indirizzo": "VIA R. LE PETIT N.99/C",
+        "cap": "00155",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "532": {
+        "descrizione": "COMMISSARIATO PRIMAVALLE",
+        "indirizzo": "VIA LUIGI MAGLIONE N.9/11",
+        "cap": "00168",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "533": {
+        "descrizione": "COMMISSARIATO ROMANINA",
+        "indirizzo": "VIA ORAZIO RAIMONDO 36",
+        "cap": "00173",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "534": {
+        "descrizione": "COMMISSARIATO SALARIO PARIOLI",
+        "indirizzo": "VIA GUIDO D' AREZZO N.22",
+        "cap": "00198",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "535": {
+        "descrizione": "COMMISSARIATO SAN BASILIO",
+        "indirizzo": "VIA ARENA, 7",
+        "cap": "00137",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "536": {
+        "descrizione": "COMMISSARIATO SAN LORENZO",
+        "indirizzo": "PIAZZALE DEL VERANO N.11",
+        "cap": "00185",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "537": {
+        "descrizione": "COMMISSARIATO SAN PAOLO",
+        "indirizzo": "VIA PORTUENSE, 183",
+        "cap": "00149",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "538": {
+        "descrizione": "COMMISSARIATO SANT'IPPOLITO",
+        "indirizzo": "PIAZZALE DEL VERANO N.11",
+        "cap": "00185",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "539": {
+        "descrizione": "COMMISSARIATO SPINACETO",
+        "indirizzo": "VIA DEI CADUTI NELLA GUERRA DI LIBERAZIONE, 360",
+        "cap": "00128",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "540": {
+        "descrizione": "COMMISSARIATO TIVOLI",
+        "indirizzo": "LARGO SALVO D'ACQUISTO, 20",
+        "cap": "00198",
+        "citta": "TIVOLI",
+        "provincia": "ROMA"
+    },
+    "541": {
+        "descrizione": "COMMISSARIATO TOR CARBONE",
+        "indirizzo": "VIA DI GROTTA PERFETTA, 635",
+        "cap": "00142",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "542": {
+        "descrizione": "COMMISSARIATO TORPIGNATTARA",
+        "indirizzo": "VIA G. DALL'ORO N.14",
+        "cap": "00177",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "543": {
+        "descrizione": "COMMISSARIATO TRASTEVERE",
+        "indirizzo": "VIA SAN FRANCESCO RIPA, 64",
+        "cap": "00153",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "544": {
+        "descrizione": "COMMISSARIATO TREVI CAMPOMARZIO",
+        "indirizzo": "PIAZZA DEL COLLEGIO ROMANO N.3",
+        "cap": "00186",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "545": {
+        "descrizione": "COMMISSARIATO TUSCOLANO",
+        "indirizzo": "VIA MARCO V. CORVO N.34/A",
+        "cap": "00174",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "546": {
+        "descrizione": "COMMISSARIATO VELLETRI",
+        "indirizzo": "VIA RUGGERO GIOVANNELLI N.4",
+        "cap": "00049",
+        "citta": "VELLETRI",
+        "provincia": "ROMA"
+    },
+    "547": {
+        "descrizione": "COMMISSARIATO VESCOVIO",
+        "indirizzo": "VIA ACHERUSIO N.87",
+        "cap": "00197",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "548": {
+        "descrizione": "COMMISSARIATO VILLA GLORI",
+        "indirizzo": "VIA GUIDUBALDO DEL MONTE N.52/A",
+        "cap": "00197",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "549": {
+        "descrizione": "COMMISSARIATO VIMINALE",
+        "indirizzo": "VIA FARINI, 40",
+        "cap": "00185",
+        "citta": "ROMA",
+        "provincia": "ROMA"
+    },
+    "683": {
+        "descrizione": "COMMISSARIATO P.S. LADISPOLI(RM)",
+        "indirizzo": "Via Vilnius 7",
+        "cap": "00055",
+        "citta": "LADISPOLI",
+        "provincia": "ROMA"
+    },
+    "282": {
+        "descrizione": "Questura di Rovigo",
+        "indirizzo": "Viale Tre Martiri nr.40",
+        "cap": "45100",
+        "citta": "ROVIGO",
+        "provincia": "ROVIGO"
+    },
+    "283": {
+        "descrizione": "Commissariato Adria",
+        "indirizzo": "Via Giovanni Palatucci, 1",
+        "cap": "45011",
+        "citta": "ADRIA",
+        "provincia": "ROVIGO"
+    },
+    "284": {
+        "descrizione": "Commissariato Porto Tolle",
+        "indirizzo": "Via Giacomo Matteotti, 345",
+        "cap": "45018",
+        "citta": "PORTO TOLLE",
+        "provincia": "ROVIGO"
+    },
+    "168": {
+        "descrizione": "Questura di Salerno",
+        "indirizzo": "Piazza Giovanni Amendola, 16",
+        "cap": "84121",
+        "citta": "SALERNO",
+        "provincia": "SALERNO"
+    },
+    "169": {
+        "descrizione": "Commissariato Battipaglia",
+        "indirizzo": "Via Rosa Iemma, 110",
+        "cap": "84091",
+        "citta": "BATTIPAGLIA",
+        "provincia": "SALERNO"
+    },
+    "170": {
+        "descrizione": "Commissariato Cava dei Tirreni",
+        "indirizzo": "Prolungameto Via Marconi, 52",
+        "cap": "84013",
+        "citta": "CAVA DE` TIRRENI",
+        "provincia": "SALERNO"
+    },
+    "171": {
+        "descrizione": "Commissariato Nocera Inferiore",
+        "indirizzo": "Via Giovanni Falcone, 4",
+        "cap": "84014",
+        "citta": "NOCERA INFERIORE",
+        "provincia": "SALERNO"
+    },
+    "172": {
+        "descrizione": "Posto di Polizia c/o Univerist\u00e0 degli studi di Salerno",
+        "indirizzo": "Via Ponte Don Melillo, 1",
+        "cap": "84084",
+        "citta": "FISCIANO",
+        "provincia": "SALERNO"
+    },
+    "173": {
+        "descrizione": "Commissariato Sarno",
+        "indirizzo": "Via Roma, 1",
+        "cap": "84087",
+        "citta": "SARNO",
+        "provincia": "SALERNO"
+    },
+    "3": {
+        "descrizione": "Questura di Savona",
+        "indirizzo": "via dei Partigiani, 2",
+        "cap": "17100",
+        "citta": "SAVONA",
+        "provincia": "SAVONA"
+    },
+    "31": {
+        "descrizione": "Commissariato Alassio",
+        "indirizzo": "v.le Hanbury, 19",
+        "cap": "17021",
+        "citta": "ALASSIO",
+        "provincia": "SAVONA"
+    },
+    "294": {
+        "descrizione": "Questura di Siena",
+        "indirizzo": "P.zza Jacopo della Quercia, 1",
+        "cap": "53100",
+        "citta": "SIENA",
+        "provincia": "SIENA"
+    },
+    "295": {
+        "descrizione": "Commissariato Chiusi Chianciano",
+        "indirizzo": "Via Cassia Aurelia , 12",
+        "cap": "53044",
+        "citta": "CHIUSI",
+        "provincia": "SIENA"
+    },
+    "296": {
+        "descrizione": "Commissariato Poggibonsi",
+        "indirizzo": "Piazza Fratelli Rosselli, 4",
+        "cap": "53036",
+        "citta": "POGGIBONSI",
+        "provincia": "SIENA"
+    },
+    "96": {
+        "descrizione": "Questura della Spezia",
+        "indirizzo": "Viale Italia, 497",
+        "cap": "19123",
+        "citta": "LA SPEZIA",
+        "provincia": "LA SPEZIA"
+    },
+    "97": {
+        "descrizione": "Commissariato Sarzana",
+        "indirizzo": "Piazza Vittorio Veneto civ.1",
+        "cap": "19020",
+        "citta": "SARZANA",
+        "provincia": "LA SPEZIA"
+    },
+    "216": {
+        "descrizione": "Questura di Siracusa",
+        "indirizzo": "Viale Scala Greca, 248",
+        "cap": "96100",
+        "citta": "SIRACUSA",
+        "provincia": "SIRACUSA"
+    },
+    "217": {
+        "descrizione": "Commissariato Augusta",
+        "indirizzo": "Via Cristoforo Colombo, 1",
+        "cap": "96011",
+        "citta": "AUGUSTA",
+        "provincia": "SIRACUSA"
+    },
+    "218": {
+        "descrizione": "Commissariato Avola",
+        "indirizzo": "Via Siracusa, 65",
+        "cap": "96012",
+        "citta": "AVOLA",
+        "provincia": "SIRACUSA"
+    },
+    "219": {
+        "descrizione": "Commissariato Lentini",
+        "indirizzo": "Via Giuseppe Di Mari nr.3",
+        "cap": "96016",
+        "citta": "LENTINI",
+        "provincia": "SIRACUSA"
+    },
+    "220": {
+        "descrizione": "Commissariato Pachino",
+        "indirizzo": "Via Tafuri, 56",
+        "cap": "96018",
+        "citta": "PACHINO",
+        "provincia": "SIRACUSA"
+    },
+    "221": {
+        "descrizione": "Commissariato Priolo Gargallo",
+        "indirizzo": "Via Venezia, 1/B",
+        "cap": "96010",
+        "citta": "PRIOLO GARGALLO",
+        "provincia": "SIRACUSA"
+    },
+    "265": {
+        "descrizione": "Commissariato Noto",
+        "indirizzo": "Via Montessori, 3",
+        "cap": "96017",
+        "citta": "NOTO",
+        "provincia": "SIRACUSA"
+    },
+    "396": {
+        "descrizione": "Settore di Polizia di frontiera Tirano",
+        "indirizzo": "Via Elvezia, 20",
+        "cap": "23037",
+        "citta": "TIRANO",
+        "provincia": "SONDRIO"
+    },
+    "331": {
+        "descrizione": "Questura di Sondrio",
+        "indirizzo": "Via Nazario Sauro, 72",
+        "cap": "23100",
+        "citta": "SONDRIO",
+        "provincia": "SONDRIO"
+    },
+    "212": {
+        "descrizione": "Questura di Taranto",
+        "indirizzo": "via Giovanni Palatucci, 5",
+        "cap": "74100",
+        "citta": "TARANTO",
+        "provincia": "TARANTO"
+    },
+    "213": {
+        "descrizione": "Commissariato Grottaglie",
+        "indirizzo": "via P. Togliatti, 13",
+        "cap": "74023",
+        "citta": "GROTTAGLIE",
+        "provincia": "TARANTO"
+    },
+    "214": {
+        "descrizione": "Commissariato Manduria",
+        "indirizzo": "via Pirro Varrone, 4",
+        "cap": "74024",
+        "citta": "MANDURIA",
+        "provincia": "TARANTO"
+    },
+    "215": {
+        "descrizione": "Commissariato Martina Franca",
+        "indirizzo": "via Pietro del Tocco, 74",
+        "cap": "74015",
+        "citta": "MARTINA FRANCA",
+        "provincia": "TARANTO"
+    },
+    "275": {
+        "descrizione": "Questura di Teramo",
+        "indirizzo": "Viale Bovio, 22",
+        "cap": "64100",
+        "citta": "TERAMO",
+        "provincia": "TERAMO"
+    },
+    "276": {
+        "descrizione": "Commissariato Atri",
+        "indirizzo": "Viale Mattucci,15",
+        "cap": "64032",
+        "citta": "TERAMO",
+        "provincia": "TERAMO"
+    },
+    "385": {
+        "descrizione": "Questura di Terni",
+        "indirizzo": "Via R.Antiochia, 12",
+        "cap": "05100",
+        "citta": "TERNI",
+        "provincia": "TERNI"
+    },
+    "386": {
+        "descrizione": "Commissariato Orvieto",
+        "indirizzo": "Piazza Cahen, 10",
+        "cap": "05018",
+        "citta": "ORVIETO",
+        "provincia": "TERNI"
+    },
+    "51": {
+        "descrizione": "Commissariato Torino Barriera di Milano",
+        "indirizzo": "Via Botticelli, 114",
+        "cap": "10152",
+        "citta": "TORINO",
+        "provincia": "TORINO"
+    },
+    "53": {
+        "descrizione": "Commissariato Torino Barriera Nizza",
+        "indirizzo": "Corso Spezia, 26",
+        "cap": "10126",
+        "citta": "TORINO",
+        "provincia": "TORINO"
+    },
+    "54": {
+        "descrizione": "Commissariato Torino San Donato",
+        "indirizzo": "Via Pierdionigi Pinelli, 3",
+        "cap": "10144",
+        "citta": "TORINO",
+        "provincia": "TORINO"
+    },
+    "55": {
+        "descrizione": "Commissariato Torino San Paolo",
+        "indirizzo": "C.so Racconigi ,100/A",
+        "cap": "10141",
+        "citta": "TORINO",
+        "provincia": "TORINO"
+    },
+    "56": {
+        "descrizione": "Commissariato Torino Borgo Po",
+        "indirizzo": "Via Sabaudia, 36",
+        "cap": "10133",
+        "citta": "TORINO",
+        "provincia": "TORINO"
+    },
+    "57": {
+        "descrizione": "Commissariato Torino Centro",
+        "indirizzo": "Via Giuseppe Verdi, 11",
+        "cap": "10124",
+        "citta": "TORINO",
+        "provincia": "TORINO"
+    },
+    "58": {
+        "descrizione": "Commissariato Torino San Secondo",
+        "indirizzo": "Via Massena, 105",
+        "cap": "10124",
+        "citta": "TORINO",
+        "provincia": "TORINO"
+    },
+    "59": {
+        "descrizione": "Commissariato Torino Dora",
+        "indirizzo": "Piazzale Cesare Augusto, 5",
+        "cap": "10122",
+        "citta": "TORINO",
+        "provincia": "TORINO"
+    },
+    "60": {
+        "descrizione": "Commissariato Torino Madonna di Campagna",
+        "indirizzo": "Corso Grosseto, 283",
+        "cap": "10147",
+        "citta": "TORINO",
+        "provincia": "TORINO"
+    },
+    "61": {
+        "descrizione": "Commissariato Torino Mirafiori",
+        "indirizzo": "Via Olivero Pier Domenico, 13",
+        "cap": "10135",
+        "citta": "TORINO",
+        "provincia": "TORINO"
+    },
+    "40": {
+        "descrizione": "Questura di Torino",
+        "indirizzo": "Piazza Cesare Augusto, 5",
+        "cap": "10122",
+        "citta": "TORINO",
+        "provincia": "TORINO"
+    },
+    "42": {
+        "descrizione": "Commissariato Bardonecchia",
+        "indirizzo": "viale della Vittoria, 1",
+        "cap": "10052",
+        "citta": "BARDONECCHIA",
+        "provincia": "TORINO"
+    },
+    "47": {
+        "descrizione": "Commissariato Ivrea",
+        "indirizzo": "Piazza San Francesco D'Assisi, 3",
+        "cap": "10015",
+        "citta": "IVREA",
+        "provincia": "TORINO"
+    },
+    "49": {
+        "descrizione": "Commissariato Rivoli",
+        "indirizzo": "via Pavia, 26",
+        "cap": "10098",
+        "citta": "RIVOLI",
+        "provincia": "TORINO"
+    },
+    "101": {
+        "descrizione": "Questura di Trapani",
+        "indirizzo": "Piazza Vittorio Veneto, 1",
+        "cap": "91100",
+        "citta": "TRAPANI",
+        "provincia": "TRAPANI"
+    },
+    "102": {
+        "descrizione": "Commissariato di Alcamo",
+        "indirizzo": "Piazza della Libert\u00e0, 4",
+        "cap": "91011",
+        "citta": "ALCAMO",
+        "provincia": "TRAPANI"
+    },
+    "103": {
+        "descrizione": "Commissariato C/mmare del Golfo",
+        "indirizzo": "Via Umberto I, 3",
+        "cap": "91014",
+        "citta": "CASTELLAMMARE DEL GOLFO",
+        "provincia": "TRAPANI"
+    },
+    "104": {
+        "descrizione": "Commissariato Castelvetrano",
+        "indirizzo": "Via del Re, 7",
+        "cap": "91021",
+        "citta": "CASTELVETRANO",
+        "provincia": "TRAPANI"
+    },
+    "105": {
+        "descrizione": "Commissariato Marsala",
+        "indirizzo": "Via Verdi, 32",
+        "cap": "91025",
+        "citta": "MARSALA",
+        "provincia": "TRAPANI"
+    },
+    "106": {
+        "descrizione": "Commissariato Mazara del vallo",
+        "indirizzo": "Via Emanuele Sansone, 56",
+        "cap": "91026",
+        "citta": "MAZARA DEL VALLO",
+        "provincia": "TRAPANI"
+    },
+    "4": {
+        "descrizione": "Questura di Trento",
+        "indirizzo": "viale Verona, 187",
+        "cap": "38100",
+        "citta": "TRENTO",
+        "provincia": "TRENTO"
+    },
+    "29": {
+        "descrizione": "Commissariato Riva del Garda",
+        "indirizzo": "via Brione, 5",
+        "cap": "38066",
+        "citta": "RIVA DEL GARDA",
+        "provincia": "TRENTO"
+    },
+    "30": {
+        "descrizione": "Commissariato Rovereto",
+        "indirizzo": "via Sighele, 1",
+        "cap": "38068",
+        "citta": "ROVERETO",
+        "provincia": "TRENTO"
+    },
+    "415": {
+        "descrizione": "Ufficio Passaporti c/o il Centro Addestramento Alpino",
+        "indirizzo": "Strada de Ischia 4",
+        "cap": "38035",
+        "citta": "MOENA",
+        "provincia": "TRENTO"
+    },
+    "416": {
+        "descrizione": "Ufficio Passaporti c/o il Comune di Pinzolo",
+        "indirizzo": "Viale della Pace 8",
+        "cap": "38086",
+        "citta": "PINZOLO",
+        "provincia": "TRENTO"
+    },
+    "417": {
+        "descrizione": "Ufficio Passaporti c/o la Comunit\u00e0 di Primiero",
+        "indirizzo": "Via Roma, 19",
+        "cap": "38054",
+        "citta": "TONADICO",
+        "provincia": "TRENTO"
+    },
+    "418": {
+        "descrizione": "Ufficio Passaporti",
+        "indirizzo": "Via 4 Novembre, 30",
+        "cap": "38027",
+        "citta": "MALE'",
+        "provincia": "TRENTO"
+    },
+    "160": {
+        "descrizione": "Questura di Treviso",
+        "indirizzo": "Piazza delle Istituzioni, Area Appiani, Edificio A",
+        "cap": "31100",
+        "citta": "TREVISO",
+        "provincia": "TREVISO"
+    },
+    "161": {
+        "descrizione": "Commissariato Conegliano Veneto",
+        "indirizzo": "Via Maggiore Piovesana, 13",
+        "cap": "31015",
+        "citta": "CONEGLIANO",
+        "provincia": "TREVISO"
+    },
+    "185": {
+        "descrizione": "Questura di Trieste",
+        "indirizzo": "Via Tor Bandena 4/2",
+        "cap": "34121",
+        "citta": "TRIESTE",
+        "provincia": "TRIESTE"
+    },
+    "186": {
+        "descrizione": "Commissariato Duino Aurisina",
+        "indirizzo": "Frazione Sistiana, 19/B",
+        "cap": "34013",
+        "citta": "DUINO AURISINA",
+        "provincia": "TRIESTE"
+    },
+    "187": {
+        "descrizione": "Commissariato Muggia",
+        "indirizzo": "Via G. D` Annunzio, 5",
+        "cap": "34015",
+        "citta": "MUGGIA",
+        "provincia": "TRIESTE"
+    },
+    "188": {
+        "descrizione": "Commissariato Trieste Villa Opicina",
+        "indirizzo": "Via Carsia, 37",
+        "cap": "34146",
+        "citta": "TRIESTE",
+        "provincia": "TRIESTE"
+    },
+    "189": {
+        "descrizione": "Commissariato Trieste Rozzol Melara",
+        "indirizzo": "Via Robert Koch, 8",
+        "cap": "34139",
+        "citta": "TRIESTE",
+        "provincia": "TRIESTE"
+    },
+    "190": {
+        "descrizione": "Commissariato Trieste San Sabba",
+        "indirizzo": "Via Mascagni, 9",
+        "cap": "34148",
+        "citta": "TRIESTE",
+        "provincia": "TRIESTE"
+    },
+    "174": {
+        "descrizione": "Questura di Udine",
+        "indirizzo": "Viale Venezia, 31/33",
+        "cap": "33100",
+        "citta": "UDINE",
+        "provincia": "UDINE"
+    },
+    "175": {
+        "descrizione": "Commissariato Cividale",
+        "indirizzo": "Piazza Armando Diaz, 1",
+        "cap": "33043",
+        "citta": "CIVIDALE DEL FRIULI",
+        "provincia": "UDINE"
+    },
+    "176": {
+        "descrizione": "Commissariato Tolmezzo",
+        "indirizzo": "via Lequio, 16",
+        "cap": "33028",
+        "citta": "TOLMEZZO",
+        "provincia": "UDINE"
+    },
+    "33": {
+        "descrizione": "Questura di Varese",
+        "indirizzo": "Piazza della Libert\u00e0, 2",
+        "cap": "21100",
+        "citta": "VARESE",
+        "provincia": "VARESE"
+    },
+    "34": {
+        "descrizione": "Commissariato Busto Arsizio",
+        "indirizzo": "via Ugo Foscolo,6",
+        "cap": "21052",
+        "citta": "BUSTO ARSIZIO",
+        "provincia": "VARESE"
+    },
+    "35": {
+        "descrizione": "Commissariato Gallarate",
+        "indirizzo": "Via dei Ragazzi del 99, n.04",
+        "cap": "21013",
+        "citta": "GALLARATE",
+        "provincia": "VARESE"
+    },
+    "395": {
+        "descrizione": "Commissariato Luino",
+        "indirizzo": "Piazza Marconi, 13",
+        "cap": "21016",
+        "citta": "LUINO",
+        "provincia": "VARESE"
+    },
+    "391": {
+        "descrizione": "Commissariato Mestre",
+        "indirizzo": "Via C\u00e0 Rossa 5",
+        "cap": "30174",
+        "citta": "MESTRE",
+        "provincia": "VENEZIA"
+    },
+    "392": {
+        "descrizione": "Commissariato Venezia Marghera",
+        "indirizzo": "Via Cosenz, 11",
+        "cap": "30175",
+        "citta": "VENEZIA",
+        "provincia": "VENEZIA"
+    },
+    "393": {
+        "descrizione": "Commissariato San Marco",
+        "indirizzo": "Castello 5053, fondamenta san Lorenzo",
+        "cap": "30100",
+        "citta": "VENEZIA",
+        "provincia": "VENEZIA"
+    },
+    "199": {
+        "descrizione": "Questura di Venezia",
+        "indirizzo": "Via Nicolodi, 21",
+        "cap": "30175",
+        "citta": "MARGHERA",
+        "provincia": "VENEZIA"
+    },
+    "319": {
+        "descrizione": "Commissariato Chioggia",
+        "indirizzo": "Corso del Popolo, 973",
+        "cap": "30015",
+        "citta": "CHIOGGIA",
+        "provincia": "VENEZIA"
+    },
+    "320": {
+        "descrizione": "Commissariato Jesolo",
+        "indirizzo": "Via Pietro Sassaro, 1",
+        "cap": "30057",
+        "citta": "JESOLO",
+        "provincia": "VENEZIA"
+    },
+    "321": {
+        "descrizione": "Commissariato Portogruaro",
+        "indirizzo": "Via Stadio, 55",
+        "cap": "30026",
+        "citta": "PORTOGRUARO",
+        "provincia": "VENEZIA"
+    },
+    "39": {
+        "descrizione": "Questura di Verbania",
+        "indirizzo": "Corso Nazioni Unite, 18",
+        "cap": "28922",
+        "citta": "VERBANIA",
+        "provincia": "VERBANO-CUSIO-OSSOLA"
+    },
+    "41": {
+        "descrizione": "Commissariato Domodossola",
+        "indirizzo": "Via Bonomelli , 5",
+        "cap": "28845",
+        "citta": "DOMODOSSOLA",
+        "provincia": "VERBANO-CUSIO-OSSOLA"
+    },
+    "43": {
+        "descrizione": "Commissariato Omegna",
+        "indirizzo": "Via Comoli, 142",
+        "cap": "28026",
+        "citta": "OMEGNA",
+        "provincia": "VERBANO-CUSIO-OSSOLA"
+    },
+    "45": {
+        "descrizione": "Questura di Vercelli",
+        "indirizzo": "Via San Cristoforo, 3",
+        "cap": "13100",
+        "citta": "VERCELLI",
+        "provincia": "VERCELLI"
+    },
+    "5": {
+        "descrizione": "Questura di Verona",
+        "indirizzo": "Lungadige Antonio Galtarossa, 11",
+        "cap": "37133",
+        "citta": "VERONA",
+        "provincia": "VERONA"
+    },
+    "79": {
+        "descrizione": "Questura di Vibo Valentia",
+        "indirizzo": "Via S. Aloe snc",
+        "cap": "89900",
+        "citta": "VIBO VALENTIA",
+        "provincia": "VIBO VALENTIA"
+    },
+    "81": {
+        "descrizione": "Commissariato Serra San Bruno",
+        "indirizzo": "Via San Brunone di Colonia snc",
+        "cap": "89822",
+        "citta": "SERRA SAN BRUNO",
+        "provincia": "VIBO VALENTIA"
+    },
+    "134": {
+        "descrizione": "Questura di Vicenza",
+        "indirizzo": "Corso Mazzini, 213",
+        "cap": "36100",
+        "citta": "VICENZA",
+        "provincia": "VICENZA"
+    },
+    "135": {
+        "descrizione": "Commissariato Bassano del Grappa",
+        "indirizzo": "Via Pecori Giraldi, 56/58",
+        "cap": "36061",
+        "citta": "BASSANO DEL GRAPPA",
+        "provincia": "VICENZA"
+    },
+    "327": {
+        "descrizione": "Questura di Viterbo",
+        "indirizzo": "Via Maresciallo Mariano Romiti, 80",
+        "cap": "01100",
+        "citta": "VITERBO",
+        "provincia": "VITERBO"
+    },
+    "328": {
+        "descrizione": "Commissariato Tarquinia",
+        "indirizzo": "Piazza Trento e Trieste, 6",
+        "cap": "01016",
+        "citta": "TARQUINIA",
+        "provincia": "VITERBO"
+    }
+}

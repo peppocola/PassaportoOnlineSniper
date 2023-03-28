@@ -18,3 +18,6 @@ To install the required dependencies:
    ```
 4. Install the required dependencies using `pip install -r requirements.txt`
 5. Start the `streamlit` interface with `streamlit run app/main.py`
+
+## GUI
+![PassaportoOnlineSniper](img/sniper.png)

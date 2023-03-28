@@ -3,6 +3,22 @@ import streamlit as st
 import json
 from datetime import datetime, timedelta
 import time
+import pandas as pd
+
+
+class ScraperThread(threading.Thread):
+    def __init__(self, target, args):
+        super().__init__()
+        self.target = target
+        self.args = args
+        self._stop_event = threading.Event()
+
+    def stop(self):
+        self._stop_event.set()
+
+    def run(self):
+        while not self._stop_event.is_set():
+            self.target(*self.args)
 
 
 # streamlit interface for an appointment scraper
@@ -10,8 +26,8 @@ class ScraperGUI():
     def __init__(self, scraper, commissariats_path="./data/commissariats.json") -> None:
         self.load_commissariats(commissariats_path)
         self.scraper = scraper
-        self.appointments = []
         self.thread = None
+        self.appointments = []
 
     def load_commissariats(self, path):
         with open(path, 'r') as f:
@@ -25,7 +41,11 @@ class ScraperGUI():
         # the user can choose multiple provinces
         self.selected_provinces = st.sidebar.multiselect("Provinces", list(self.provinces))
         # the user can choose multiple commissariats
-        self.selected_commissariats = st.sidebar.multiselect("Commissariats", self.get_commissariats(self.selected_provinces))
+        # the multiselect should show the commissariat name but the scraper should use the commissariat id
+        self.pd_commissariats = self.get_commissariats(self.selected_provinces)
+        self.selected_commissariats = st.sidebar.multiselect("Commissariats", self.pd_commissariats)
+        # transform the commissariat names into commissariat ids from the pandas dataframe 
+        self.selected_commissariats = self.pd_commissariats[self.pd_commissariats["description"].isin(self.selected_commissariats)]["id"].to_list()
 
         # the user can choose a date or a range of dates, not both
         # the user should select if he wants to choose a date or a range of dates
@@ -67,6 +87,7 @@ class ScraperGUI():
         self.display_appointments()
         
     def display_appointments(self):
+        self.appointments = self.scraper.appointments.copy()
         # filter the appointments by date
         self.filter_appointments()
 
@@ -75,37 +96,35 @@ class ScraperGUI():
 
         # loop indefinitely to update the appointments display
         while True:
-            # get the latest appointments
-            latest_appointments = self.appointments.copy()
             # clear the appointments placeholder
             appointments_placeholder.empty()
             # display the latest appointments
-            for appointment in latest_appointments:
-                appointments_placeholder.write(appointment)
+            for appointment in self.appointments:
+                appointments_placeholder.write(self.appointments[appointment])
             # sleep for a short time to avoid using too many resources
             time.sleep(1)
 
-    def get_commissariats(self, provinces):
+    def get_commissariats(self, provinces):        
         commissariats = []
-        print(self.commissariats)
-        print(self.selected_provinces)
         for province in provinces:
-            print(province)
-            print(type(province))
             for commissariat in self.commissariats[province]:
-                print(commissariat)
-                commissariats.append(self.commissariats[province][commissariat]['descrizione'])
-        return commissariats
+                commissariats.append({"description": self.commissariats[province][commissariat]['descrizione'], "id": commissariat})
+        return pd.DataFrame(commissariats, columns=["description", "id"])
     
     def filter_appointments(self):
-        # filter the appointments by date
+        # filter the appointments dictionary by date
         if self.date_or_range == "Date":
             self.appointments = [appointment for appointment in self.appointments if appointment['date'] >= self.date]
         elif self.date_or_range == "Range":
             self.appointments = [appointment for appointment in self.appointments if self.start_date <= appointment['date'] <= self.end_date]
 
+    def scraper_loop(self, province, commissariats, timeout=10):
+        while True:
+            self.scraper.scrape_appointments(province, commissariats, timeout=timeout)
+            time.sleep(timeout)
+
     def run_scraper(self):
-        self.thread = threading.Thread(target=self.scraper.scrape_appointments, args=(self.selected_provinces, self.selected_commissariats))
+        self.thread = ScraperThread(target=self.scraper_loop, args=(self.selected_provinces, self.selected_commissariats))
         self.thread.start()
     
     def stop_scraper(self):

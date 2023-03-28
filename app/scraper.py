@@ -19,7 +19,6 @@ class Scraper:
         self.province_url = province_url
         self.commissariats = {}
         self.appointments = defaultdict(list)
-        self.running = False
         self.commissariats_province_path = './data/commissariats.json'
         self.provinces_path = './data/provinces.json'
         self.commissariats_no_province_path = './data/commissariats_no_province.json'
@@ -104,7 +103,7 @@ class Scraper:
                         'date': datetime_object,
                     })
                 #print(self.appointments)
-                time.sleep(timeout)
+            time.sleep(timeout)
         return self.appointments
     
 

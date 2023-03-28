@@ -1,8 +1,8 @@
 import threading
 import streamlit as st
 import json
-from datetime import datetime, time
-import time as tm
+from datetime import datetime
+import time
 import pandas as pd
 
 
@@ -87,7 +87,7 @@ class ScraperGUI():
             while self.running:
                 self.appointments = self.scraper.scrape_appointments(self.selected_provinces, self.selected_commissariats)
                 self.display_appointments()
-                tm.sleep(10)
+                time.sleep(10)
         # if the user clicks on the stop button, the scraper is stopped
         if self.stop_button:
             self.running=False
@@ -98,14 +98,10 @@ class ScraperGUI():
         self.display_appointments()
         
     def display_appointments(self):
-        print('displaying appointments')
 
         self.appointments = self.scraper.appointments.copy()
         # filter the appointments by date
         self.filter_appointments()
-
-        print('filtered appointments')
-        print(self.appointments)
         # create an empty placeholder to display the appointments
 
         # clear the appointments placeholder
@@ -125,7 +121,6 @@ class ScraperGUI():
     
     def filter_appointments(self):
         # filter the appointments dictionary by date
-        print(self.appointments)
         if self.date_or_range == "Date":
             for commissariat in self.appointments:
                 self.appointments[commissariat] = [appointment for appointment in self.appointments[commissariat] if appointment['date'] <= self.date] 
@@ -143,18 +138,6 @@ class ScraperGUI():
                 row = pd.DataFrame({"commissariat": [commissariat_name], "date": [appointment_date], "url": [appointment_url]})
                 df = pd.concat([df, row], axis=0, ignore_index=True)
         return df
-    
-    def hide_index():
-        # CSS to inject contained in a string
-        hide_table_row_index = """
-                    <style>
-                    thead tr th:first-child {display:none}
-                    tbody th {display:none}
-                    </style>
-                    """
-
-        # Inject CSS with Markdown
-        st.markdown(hide_table_row_index, unsafe_allow_html=True)
 
     def run_scraper(self):
         self.thread = threading.Thread(target=self.scraper.scraping_loop, args=(self.selected_provinces, self.selected_commissariats))

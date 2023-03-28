@@ -97,13 +97,10 @@ class Scraper:
                     date = calendar_path.split('&data=')[1]
                     # save the date object without the time
                     datetime_object = datetime.strptime(date, '%d-%m-%Y').date()
-                    #print(self.appointments)
-                    #print(commissariat_id)
                     self.appointments[commissariat_id].append({
                         'url': url,
                         'date': datetime_object,
                     })
-                #print(self.appointments)
             time.sleep(timeout)
         return self.appointments
     

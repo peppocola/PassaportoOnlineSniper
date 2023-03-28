@@ -3,6 +3,7 @@ Scrape appointments for the PassaportoOnline italian website.
 
 ## Installation
 The project has been developed in Python 3.10
+
 To install the required dependencies:
 1. Clone the repository using `git clone https://github.com/mastermind1804/PassaportoOnlineSniper.git`
 2. Navigate to the project directory using `cd PassaportoOnlineSniper`

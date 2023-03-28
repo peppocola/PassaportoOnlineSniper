@@ -1,6 +1,10 @@
 # 🎯PassaportoOnlineSniper🎯
 Scrape appointments for the PassaportoOnline italian website.
 
+🤗Still in development🤗
+- Report problems as issues
+- Feel free to collaborate sending a pull request
+
 ## Installation
 The project has been developed in Python 3.10
 

@@ -82,12 +82,12 @@ class ScraperGUI():
 
         # if the user clicks on the start button, the scraper is called
         if self.start_button:
-            st.write('Scraper started...')
-            self.running=True
-            while self.running:
-                self.appointments = self.scraper.scrape_appointments(self.selected_provinces, self.selected_commissariats)
-                self.display_appointments()
-                time.sleep(10)
+            with st.spinner(text="Scraping..."):
+                self.running=True
+                while self.running:
+                    self.appointments = self.scraper.scrape_appointments(self.selected_provinces, self.selected_commissariats)
+                    self.display_appointments()
+                    time.sleep(10)
         # if the user clicks on the stop button, the scraper is stopped
         if self.stop_button:
             self.running=False

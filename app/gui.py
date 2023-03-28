@@ -140,7 +140,8 @@ class ScraperGUI():
             for appointment in self.appointments[commissariat]:
                 appointment_date = appointment['date']
                 appointment_url = appointment['url'] 
-                df = df.append({"commissariat": commissariat_name, "date": appointment_date, "url": appointment_url}, ignore_index=True)
+                row = pd.DataFrame({"commissariat": [commissariat_name], "date": [appointment_date], "url": [appointment_url]})
+                df = pd.concat([df, row], axis=0, ignore_index=True)
         return df
     
     def hide_index():

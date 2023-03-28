@@ -84,6 +84,7 @@ class Scraper:
             json.dump(commissariats, f, indent=4)
     
     def scrape_appointments(self, provinces, commissariats, timeout=10):
+        self.appointments = defaultdict(list)
         for province in provinces:
             response = requests.get(self.province_url + province)
             soup = BeautifulSoup(response.content, 'html.parser')

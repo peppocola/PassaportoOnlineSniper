@@ -43,6 +43,8 @@ class ScraperGUI():
     
     def display_interface(self):
         st.title('Appointment Scraper')
+        # placeholder for the appointments table
+        self.appointments_placeholder = st.empty()
         # the user can choose multiple provinces
         self.selected_provinces = st.sidebar.multiselect("Provinces", list(self.provinces))
         # the user can choose multiple commissariats
@@ -97,6 +99,7 @@ class ScraperGUI():
         
     def display_appointments(self):
         print('displaying appointments')
+
         self.appointments = self.scraper.appointments.copy()
         # filter the appointments by date
         self.filter_appointments()
@@ -104,14 +107,12 @@ class ScraperGUI():
         print('filtered appointments')
         print(self.appointments)
         # create an empty placeholder to display the appointments
-        appointments_placeholder = st.empty()
 
         # clear the appointments placeholder
-        appointments_placeholder.empty()
+        self.appointments_placeholder.empty()
 
         df = self.convert_appointments_to_dataframe()
-
-        appointments_placeholder.table(df)
+        self.appointments_placeholder.dataframe(df)
         
         # display the latest appointments as a table
     
@@ -141,6 +142,18 @@ class ScraperGUI():
                 appointment_url = appointment['url'] 
                 df = df.append({"commissariat": commissariat_name, "date": appointment_date, "url": appointment_url}, ignore_index=True)
         return df
+    
+    def hide_index():
+        # CSS to inject contained in a string
+        hide_table_row_index = """
+                    <style>
+                    thead tr th:first-child {display:none}
+                    tbody th {display:none}
+                    </style>
+                    """
+
+        # Inject CSS with Markdown
+        st.markdown(hide_table_row_index, unsafe_allow_html=True)
 
     def run_scraper(self):
         self.thread = threading.Thread(target=self.scraper.scraping_loop, args=(self.selected_provinces, self.selected_commissariats))

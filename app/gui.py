@@ -112,7 +112,7 @@ class ScraperGUI():
         self.appointments_placeholder.empty()
 
         df = self.convert_appointments_to_dataframe()
-        self.appointments_placeholder.dataframe(df)
+        self.appointments_placeholder.dataframe(df.set_index(df.index + 1))
         
         # display the latest appointments as a table
     

@@ -95,7 +95,8 @@ class Scraper:
                     calendar_path = soup.find('tr', {'id': commissariat_id}).find('td', {'headers': 'selezionaStruttura'}).find('a').get('href')
                     url = f"https://www.passaportonline.poliziadistato.it/{calendar_path}"
                     date = calendar_path.split('&data=')[1]
-                    datetime_object = datetime.strptime(date, '%d-%m-%Y')
+                    # save the date object without the time
+                    datetime_object = datetime.strptime(date, '%d-%m-%Y').date()
                     #print(self.appointments)
                     #print(commissariat_id)
                     self.appointments[commissariat_id].append({

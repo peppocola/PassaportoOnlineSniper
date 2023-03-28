@@ -101,6 +101,8 @@ class ScraperGUI():
         # filter the appointments by date
         self.filter_appointments()
 
+        print('filtered appointments')
+        print(self.appointments)
         # create an empty placeholder to display the appointments
         appointments_placeholder = st.empty()
 
@@ -123,16 +125,9 @@ class ScraperGUI():
     def filter_appointments(self):
         # filter the appointments dictionary by date
         print(self.appointments)
-        # convert the date to a datetime object
-        if self.date_or_range == "Date":
-            self.date = datetime.combine(self.date, time.min)
-        elif self.date_or_range == "Range":
-            self.start_date = datetime.combine(self.start_date, time.min)
-            self.end_date = datetime.combine(self.end_date, time.max)
-
         if self.date_or_range == "Date":
             for commissariat in self.appointments:
-                self.appointments[commissariat] = [appointment for appointment in self.appointments[commissariat] if appointment['date'] >= self.date] 
+                self.appointments[commissariat] = [appointment for appointment in self.appointments[commissariat] if appointment['date'] <= self.date] 
         elif self.date_or_range == "Range":
             for commissariat in self.appointments:
                 self.appointments[commissariat] = [appointment for appointment in self.appointments[commissariat] if appointment['date'] >= self.start_date and appointment['date'] <= self.end_date]

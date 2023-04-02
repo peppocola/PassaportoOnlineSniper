@@ -1,9 +1,9 @@
 import threading
+from utils import convert_appointments_to_dataframe, filter_appointments, get_commissariats
 import streamlit as st
 import json
 from datetime import datetime
 import time
-import pandas as pd
 
 
 class ScraperThread(threading.Thread):
@@ -49,7 +49,7 @@ class ScraperGUI():
         self.selected_provinces = st.sidebar.multiselect("Provinces", list(self.provinces))
         # the user can choose multiple commissariats
         # the multiselect should show the commissariat name but the scraper should use the commissariat id
-        self.pd_commissariats = self.get_commissariats(self.selected_provinces)
+        self.pd_commissariats = get_commissariats(self.selected_provinces, self.commissariats)
         self.selected_commissariats = st.sidebar.multiselect("Commissariats", self.pd_commissariats)
         # transform the commissariat names into commissariat ids from the pandas dataframe 
         self.selected_commissariats = self.pd_commissariats[self.pd_commissariats["description"].isin(self.selected_commissariats)]["id"].to_list()
@@ -63,6 +63,8 @@ class ScraperGUI():
             st.sidebar.write("The appointments will be searched to be more recent than the date you picked")
             self.date = st.sidebar.date_input("Date", datetime.now())
             self.date_range = None
+            self.start_date = None
+            self.end_date = None
         elif self.date_or_range == "Range":
             st.sidebar.write("The appointments will be searched to be in the range of dates you picked")
             self.date = None
@@ -99,45 +101,21 @@ class ScraperGUI():
         
     def display_appointments(self):
 
-        self.appointments = self.scraper.appointments.copy()
         # filter the appointments by date
-        self.filter_appointments()
+        self.appointments = filter_appointments(self.date_or_range,
+                                                self.date,
+                                                self.start_date,
+                                                self.end_date,
+                                                self.scraper.appointments.copy())
         # create an empty placeholder to display the appointments
 
         # clear the appointments placeholder
         self.appointments_placeholder.empty()
 
-        df = self.convert_appointments_to_dataframe()
+        df = convert_appointments_to_dataframe(self.appointments, self.commissariats_no_province)
         self.appointments_placeholder.dataframe(df.set_index(df.index + 1))
         
         # display the latest appointments as a table
-    
-    def get_commissariats(self, provinces):        
-        commissariats = []
-        for province in provinces:
-            for commissariat in self.commissariats[province]:
-                commissariats.append({"description": self.commissariats[province][commissariat]['descrizione'], "id": commissariat})
-        return pd.DataFrame(commissariats, columns=["description", "id"])
-    
-    def filter_appointments(self):
-        # filter the appointments dictionary by date
-        if self.date_or_range == "Date":
-            for commissariat in self.appointments:
-                self.appointments[commissariat] = [appointment for appointment in self.appointments[commissariat] if appointment['date'] <= self.date] 
-        elif self.date_or_range == "Range":
-            for commissariat in self.appointments:
-                self.appointments[commissariat] = [appointment for appointment in self.appointments[commissariat] if appointment['date'] >= self.start_date and appointment['date'] <= self.end_date]
-
-    def convert_appointments_to_dataframe(self):
-        df = pd.DataFrame(columns=["commissariat", "date", "url"])
-        for commissariat in self.appointments:
-            commissariat_name = self.commissariats_no_province[commissariat]['descrizione']
-            for appointment in self.appointments[commissariat]:
-                appointment_date = appointment['date']
-                appointment_url = appointment['url'] 
-                row = pd.DataFrame({"commissariat": [commissariat_name], "date": [appointment_date], "url": [appointment_url]})
-                df = pd.concat([df, row], axis=0, ignore_index=True)
-        return df
 
     def run_scraper(self):
         self.thread = threading.Thread(target=self.scraper.scraping_loop, args=(self.selected_provinces, self.selected_commissariats))

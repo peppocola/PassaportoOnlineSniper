@@ -56,12 +56,12 @@ class ScraperGUI():
 
         # the user can choose a date or a range of dates, not both
         # the user should select if he wants to choose a date or a range of dates
-        self.date_or_range = st.sidebar.radio("Date or range", ["Date", "Range"])
+        self.date_or_range = st.sidebar.radio("Date or range", ["Any", "Before Date", "Range"])
         # display text to explain the user that if he pick date, the appointments will be searched to be more recent than the date he picked
         # the date or the range of dates is shown depending on the user's choice
-        if self.date_or_range == "Date":
+        if self.date_or_range == "Before Date":
             st.sidebar.write("The appointments will be searched to be more recent than the date you picked")
-            self.date = st.sidebar.date_input("Date", datetime.now())
+            self.date = st.sidebar.date_input("Before Date", datetime.now())
             self.date_range = None
             self.start_date = None
             self.end_date = None
@@ -75,6 +75,12 @@ class ScraperGUI():
                 st.sidebar.error("End date must be after start date")
             else:
                 self.date_range = (self.start_date, self.end_date)
+        elif self.date_or_range == "Any":
+            st.sidebar.write("All appointments will be searched ")
+            self.date = None
+            self.date_range = None
+            self.start_date = None
+            self.end_date = None
 
         # define the buttons if not already defined
         if not hasattr(st.session_state, "Start"):

@@ -12,7 +12,7 @@ def filter_appointments(date_or_range, date, start_date, end_date, appointments)
     # if appointments is empty, pass
     if appointments:
         # filter the appointments dictionary by date
-        if date_or_range == "Date":
+        if date_or_range == "Before Date":
             for commissariat in appointments:
                 appointments[commissariat] = [appointment for appointment in appointments[commissariat] if appointment['date'] <= date] 
         elif date_or_range == "Range":
